@@ -1,0 +1,93 @@
+.user-food-allergic {
+  height: 100%;
+}
+
+.allergies-wrapper {
+  padding-bottom: 0 !important;
+  height: 100% !important;
+}
+
+.f-l {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  background-color: var(--bg-1);
+  z-index: 11;
+  border-radius: 24px 24px 0 0;
+  transition: height 0.2s linear;
+
+  &--active {
+    height: 60vh;
+    .f_l__footer_wrapper {
+      display: flex;
+     justify-content: flex-end;
+    }
+    .f-l__footer {
+      display: flex;
+      width: 60%;
+    }
+  }
+
+  &__wrapper {
+    padding: 32px 24px 24px 24px;
+    height: 100%;
+    position: relative;
+
+    h4 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 4%;
+    }
+  }
+
+  &__list {
+    margin-top: 24px;
+    overflow-y: auto;
+    height: 100%;
+
+    &--item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      line-height: 20px;
+      text-transform: capitalize;
+
+      h6 {
+        font-size: 15px;
+        line-height: 20px;
+      }
+
+      svg {
+        width: 0;
+        height: 0;
+      }
+    }
+
+    &--item-active {
+      h6 {
+        font-family: FoundersGrotesk-Medium;
+        font-weight: 500 !important;
+        position: relative;
+      }
+      svg {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+
+  &__footer {
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    display: none;
+    background-color: var(--bg-1);
+  }
+}
+
+.f-l__wrapper {
+  h4 {
+    margin-bottom: 8px !important;
+  }
+}

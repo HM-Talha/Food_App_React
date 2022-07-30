@@ -1,0 +1,93 @@
+.username-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+
+  .title {
+    font-weight: bolder;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.submit-icon-wrapper {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #DBEF06;
+}
+.input-wrapper {
+  background: #FAFAF5;
+  padding: 0px;
+  width: 85%;
+  margin-bottom: 3rem;
+  margin-top: 1.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  .active-input {
+    color: black;
+    text-align: left;
+    padding-left: 1rem;
+  }
+
+  .active-number {
+    width: 85% !important;
+  }
+
+  input {
+    border: 0;
+    font-size: 18px;
+    width: 100%;
+    background: unset;
+    color: #8A8A87;
+    padding: 1rem 1rem;
+    outline: none;
+    &::placeholder {
+      padding: 1rem 0;
+      text-align: center;
+    }
+  }
+}
+
+.input-btn-wrapper {
+  border: 1px solid #DBEF06;
+  padding: 0.8rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  width: 85%;
+  margin: 5px 0;
+
+  button {
+    background: white;
+    border: none;
+    outline: none;
+    color: #8A8A87;
+
+  }
+
+  img {
+    visibility: hidden;
+  }
+
+
+}
+
+.btn-active {
+  background: #DBEF06;
+  button {
+    background: #DBEF06;
+    color: #292929;
+  }
+  .next-btn {
+    visibility: visible;
+    padding-right: 1rem;
+  }
+}

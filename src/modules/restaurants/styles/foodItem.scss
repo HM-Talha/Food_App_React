@@ -1,0 +1,157 @@
+.quantity-picker {
+  color: black;
+  border: none;
+  outline: none;
+  background: #D9EE05;
+  border-radius: 100px;
+  width: 41px;
+  height: 41px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.quantity-picker-expand {
+  background: #FFFFFF;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  border-radius: 100px;
+  width: 40px;
+  align-items: center;
+  row-gap: 10px;
+  height: 90px;
+  overflow: auto;
+}
+.quantity{
+  padding: .5px;
+}
+
+.quantity-picker-wrapper {
+  position: absolute;
+  right: 12px;
+  /* top: -30px; */
+  bottom: -50px;
+  z-index: 1;
+  width: 41px;
+  background: #fff;
+  overflow: hidden;
+  border-radius: 40px !important;
+
+  
+  .picker-highlight {
+
+    &::before, &::after {
+      background-color: transparent !important;
+    }
+  }
+
+}
+
+.quantity-picker-wrapper .picker-container {
+  background: #fff;
+  
+}
+
+
+.quantity-picker-wrapper .picker-container .picker-inner {
+  -webkit-mask-box-image: none !important;
+  padding: 0px;
+}
+.quantity-picker-wrapper .picker-container .picker-inner {
+  padding: 0px;
+}
+
+.quantity-picker-wrapper .picker-container .picker-column .picker-scroller {
+  margin-top: -24px;
+
+}
+
+.quantity-picker-wrapper .picker-item.picker-item-selected {
+  font-weight: 600;
+  color: #222!important;
+  font-size: 16px !important;
+}
+
+.quantity-picker-wrapper .picker-item.picker-item {
+  font-weight: 600;
+  color: #222!important;
+  font-size: 16px !important;
+}
+
+.card_food-item_wrapper {
+  overflow: hidden;
+  height: auto;
+  width: 100%;
+  background-color: #FAFAF5;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card_header_wrapper {
+  height: 138px;
+  width: 100%;
+  background: linear-gradient(0deg, rgba(252, 118, 71, 0.1), rgba(252, 118, 71, 0.1)), #FFFFFF;
+}
+
+.card_header_wrapper img {
+  height: 138px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card_body_wrapper {
+  flex: 1;
+  padding: 12px;
+}
+
+.card_footer_wrapper {
+  height: auto;
+  width: 100%;
+  background: linear-gradient(0deg, rgba(252, 118, 71, 0.1), rgba(252, 118, 71, 0.1)), #FFFFFF;
+  padding: 12px;
+}
+
+.description-food {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: #8A8A87;
+  margin-top: 12px;
+}
+
+.description-food-in-footer {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #DD2E44;
+}
+
+.disable-scroll {
+  overflow-y: hidden;
+}
+
+.item-text {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.item-animation {
+  position: relative;
+  text-overflow: ellipsis-word;
+  white-space: nowrap;
+  animation: item-slide 7s normal;
+}
+
+@keyframes item-slide {
+  from {
+    left: 0px;
+  }
+  to {
+    left: -200px;
+  }
+}

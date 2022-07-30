@@ -1,0 +1,3 @@
+export const SET_CART_DETAILS = 'SET_CART_DETAILS';
+export const SET_CART_ITEMS = 'SET_CART_ITEMS';
+export const SET_QTY_SLIDER = 'SET_QTY_SLIDER';

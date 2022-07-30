@@ -1,0 +1,186 @@
+p {
+	margin-bottom: 0 !important;
+	font-family: 'DM Sans';
+	font-style: normal;
+}
+
+.ordersHeader {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 20px;
+
+	.ordersHeading {
+		margin-left: 16px;
+
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 26px;
+		letter-spacing: -0.5px;
+		color: #292929;
+	}
+}
+
+.orderBody {
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px;
+
+	button {
+		margin-bottom: 20px;
+	}
+}
+
+.icon {
+	margin-bottom: auto;
+}
+
+.restaurantDetails,
+.homeDetails {
+	display: flex;
+	flex-direction: column;
+	margin-left: 12px;
+	width: 270px;
+}
+
+.locationName, .address {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.locationName {
+
+	font-weight: 500;
+	font-size: 16px;
+
+	letter-spacing: -0.5px;
+
+	color: #292929;
+}
+
+.address {
+	height: 17px;
+
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 150%;
+
+	color: #8A8A87;
+}
+
+.deliveryDetails {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+	padding: 8px;
+	gap: 10px;
+	background: #FAFAF5;
+	border-radius: 8px;
+
+	p {
+		height: 14px;
+
+		font-weight: 400;
+		font-size: 11px;
+		line-height: 14px;
+	}
+}
+
+.billHeading {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 82.8%;
+
+	letter-spacing: -0.5px;
+
+	color: #292929;
+}
+
+.orderItem div p {
+	height: 20px;
+
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 140%;
+
+	display: flex;
+	align-items: center;
+	letter-spacing: -0.5px;
+
+
+	color: #292929;
+}
+
+.orderAddition {
+	height: 17px;
+
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 140%;
+
+	letter-spacing: -0.5px;
+
+	color: #8A8A87;
+}
+
+.billDetail p {
+	height: 17px;
+
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 140%;
+
+	letter-spacing: -0.5px;
+
+	color: #8A8A87;
+}
+
+.billTotal p {
+	height: 20px;
+
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 140%;
+
+	letter-spacing: -0.5px;
+
+	color: #292929;
+}
+
+.reviewFoodContainer {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 16px;
+	gap: 8px;
+	height: 71px;
+
+	background: #FFFFFF;
+
+	border: 1px solid #F2F2ED;
+	box-shadow: 25.9384px 51.8768px 174px rgba(0, 0, 0, 0.06), 9.99108px 19.9822px 55.4222px rgba(0, 0, 0, 0.0364444), 2.1135px 4.227px 14.1778px rgba(0, 0, 0, 0.0235556);
+	border-radius: 12px;
+
+	p {
+		font-weight: 400;
+		line-height: 140%;
+		letter-spacing: -0.5px;
+	}
+
+	p:first-child {
+		height: 20px;
+		font-size: 14px;
+		color: #292929;
+	}
+
+	p:last-child {
+		height: 17px;
+		font-size: 12px;
+		color: #8A8A87;
+
+	}
+}

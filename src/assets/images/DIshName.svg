@@ -1,0 +1,124 @@
+<svg width="360" height="640" viewBox="0 0 360 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2813:46265)">
+<rect width="360" height="640" fill="white"/>
+<rect width="120" height="120" transform="translate(240 480)" fill="#FCEA4C"/>
+<path d="M240 600L360 480V600H240Z" fill="#ABD9D6"/>
+<path d="M360 600L240 480V600H360Z" fill="#344569"/>
+<g clip-path="url(#clip1_2813:46265)">
+<rect width="120" height="120" transform="translate(240 600) rotate(90)" fill="#FCEA4C"/>
+<path d="M120 600L240 720L120 720L120 600Z" fill="#ABD9D6"/>
+<path d="M120 720L240 600L120 600L120 720Z" fill="#344569"/>
+</g>
+<g opacity="0.4">
+<rect width="120" height="120" transform="translate(0 600)" fill="#F6BF50"/>
+<path d="M119 661L60 601L1 661L60 719L119 661Z" fill="#FC7647"/>
+</g>
+<g opacity="0.2">
+<rect width="120" height="120" transform="translate(240 360)" fill="#F6BF50"/>
+<circle cx="300" cy="420" r="60" fill="#FC7647"/>
+</g>
+<g opacity="0.3" clip-path="url(#clip2_2813:46265)">
+<rect width="120" height="120" transform="translate(360 360) rotate(-180)" fill="#F6BF50"/>
+<g clip-path="url(#clip3_2813:46265)">
+<circle cx="300" cy="300" r="60" transform="rotate(-90 300 300)" fill="#FC7647"/>
+</g>
+<g clip-path="url(#clip4_2813:46265)">
+<circle cx="300" cy="240" r="60" transform="rotate(-90 300 240)" fill="#FC7647"/>
+</g>
+</g>
+<g opacity="0.4">
+<rect width="120" height="121" transform="translate(240 600)" fill="#F6BF50"/>
+<path d="M240 720L360 600V720H240Z" fill="#C89FEB"/>
+</g>
+<g clip-path="url(#clip5_2813:46265)">
+<rect width="120" height="120" transform="translate(0 480)" fill="#C89FEB"/>
+<g clip-path="url(#clip6_2813:46265)">
+<circle cx="60" cy="540" r="60" transform="rotate(90 60 540)" fill="#344569"/>
+</g>
+<g clip-path="url(#clip7_2813:46265)">
+<circle cx="60" cy="600" r="60" transform="rotate(90 60 600)" fill="#344569"/>
+</g>
+</g>
+<g opacity="0.2" clip-path="url(#clip8_2813:46265)">
+<rect width="120" height="120" transform="translate(0 360)" fill="#C89FEB"/>
+<rect x="60" y="480" width="60" height="60" transform="rotate(-180 60 480)" fill="#ABD9D6"/>
+<rect x="120" y="420" width="60" height="60" transform="rotate(-180 120 420)" fill="#ABD9D6"/>
+</g>
+<g opacity="0.2" clip-path="url(#clip9_2813:46265)">
+<rect width="120" height="120" transform="translate(240 600) rotate(180)" fill="#FC7647"/>
+<path d="M240 480L120 600L120 480L240 480Z" fill="#815FED"/>
+</g>
+<g clip-path="url(#clip10_2813:46265)">
+<rect width="120" height="120" transform="translate(360 120) rotate(180)" fill="#FCEA4C"/>
+<g clip-path="url(#clip11_2813:46265)">
+<circle cx="300" cy="60" r="60" transform="rotate(90 300 60)" fill="#344569"/>
+</g>
+<circle cx="300" cy="90" r="30" transform="rotate(180 300 90)" fill="#ABD9D6"/>
+</g>
+<rect width="120" height="120" transform="translate(120 360)" fill="#C89FEB"/>
+<path d="M239 421L180 361L121 421L180 479L239 421Z" fill="#FCEA4C"/>
+<rect width="120" height="120" transform="translate(0 120)" fill="#C89FEB"/>
+<path d="M119 181L60 121L1 181L60 239L119 181Z" fill="#FCEA4C"/>
+<g opacity="0.2">
+<rect width="120" height="120" transform="translate(120 120)" fill="#ABD9D6"/>
+<circle cx="180" cy="180" r="60" fill="#FCEA4C"/>
+<circle cx="180" cy="180" r="44" fill="#C89FEB"/>
+</g>
+<g clip-path="url(#clip12_2813:46265)">
+<rect width="120" height="120" transform="translate(120)" fill="#F6BF50"/>
+<circle r="120" transform="matrix(-1 0 0 1 120 0)" fill="#815FED"/>
+</g>
+<g clip-path="url(#clip13_2813:46265)">
+<rect width="120" height="120" transform="translate(360 240) rotate(-180)" fill="#F6BF50"/>
+<rect x="360" y="240" width="120" height="12" transform="rotate(-180 360 240)" fill="#FCEA4C"/>
+<rect x="360" y="216" width="120" height="12" transform="rotate(-180 360 216)" fill="#FCEA4C"/>
+<rect x="360" y="192" width="120" height="12" transform="rotate(-180 360 192)" fill="#FCEA4C"/>
+<rect x="360" y="168" width="120" height="12" transform="rotate(-180 360 168)" fill="#FCEA4C"/>
+<rect x="360" y="144" width="120" height="12" transform="rotate(-180 360 144)" fill="#FCEA4C"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_2813:46265">
+<rect width="360" height="640" fill="white"/>
+</clipPath>
+<clipPath id="clip1_2813:46265">
+<rect width="120" height="120" fill="white" transform="translate(240 600) rotate(90)"/>
+</clipPath>
+<clipPath id="clip2_2813:46265">
+<rect width="120" height="120" fill="white" transform="translate(360 360) rotate(-180)"/>
+</clipPath>
+<clipPath id="clip3_2813:46265">
+<rect width="60" height="120" fill="white" transform="translate(240 360) rotate(-90)"/>
+</clipPath>
+<clipPath id="clip4_2813:46265">
+<rect width="60" height="120" fill="white" transform="translate(240 300) rotate(-90)"/>
+</clipPath>
+<clipPath id="clip5_2813:46265">
+<rect width="120" height="120" fill="white" transform="translate(0 480)"/>
+</clipPath>
+<clipPath id="clip6_2813:46265">
+<rect width="60" height="120" fill="white" transform="translate(120 480) rotate(90)"/>
+</clipPath>
+<clipPath id="clip7_2813:46265">
+<rect width="60" height="120" fill="white" transform="translate(120 540) rotate(90)"/>
+</clipPath>
+<clipPath id="clip8_2813:46265">
+<rect width="120" height="120" fill="white" transform="translate(0 360)"/>
+</clipPath>
+<clipPath id="clip9_2813:46265">
+<rect width="120" height="120" fill="white" transform="translate(240 600) rotate(180)"/>
+</clipPath>
+<clipPath id="clip10_2813:46265">
+<rect width="120" height="120" fill="white" transform="translate(360 120) rotate(180)"/>
+</clipPath>
+<clipPath id="clip11_2813:46265">
+<rect width="60" height="120" fill="white" transform="translate(360) rotate(90)"/>
+</clipPath>
+<clipPath id="clip12_2813:46265">
+<rect width="120" height="120" fill="white" transform="translate(120)"/>
+</clipPath>
+<clipPath id="clip13_2813:46265">
+<rect width="120" height="120" fill="white" transform="translate(360 240) rotate(-180)"/>
+</clipPath>
+</defs>
+</svg>

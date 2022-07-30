@@ -1,0 +1,56 @@
+<svg width="269" height="255" viewBox="0 0 269 255" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_4853_20679" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="1" y="0" width="269" height="255">
+<path d="M85.6969 0.00207166C94.1355 0.258706 102.306 1.7321 110.222 4.4244H111.013C111.548 4.6789 111.95 4.96018 112.218 5.21468C115.178 6.16569 117.978 7.23725 120.657 8.71065L125.747 10.9877C127.756 12.0593 130.167 14.0551 131.506 14.8721C132.846 15.6624 134.319 16.4795 135.525 17.4037C150.406 6.03174 168.475 -0.129735 187.094 0.00207166C195.546 0.00207166 203.985 1.19632 212.008 3.88862C261.447 19.962 279.262 74.2098 264.381 121.626C255.942 145.857 242.146 167.971 224.076 186.041C198.212 211.088 169.828 233.323 139.275 252.477L135.927 254.5L132.444 252.343C101.784 233.323 73.2399 211.088 47.1339 185.907C29.1851 167.837 15.3753 145.857 6.80273 121.626C-8.33317 74.2098 9.48165 19.962 59.4569 3.60734C63.3413 2.26788 67.3463 1.33027 71.3647 0.807881H72.972C76.7359 0.258706 80.473 0.00207166 84.2235 0.00207166H85.6969Z" fill="black"/>
+</mask>
+<g mask="url(#mask0_4853_20679)">
+<g clip-path="url(#clip0_4853_20679)">
+<rect width="134.242" height="134.242" transform="translate(0.989746 133.756)" fill="#C89FEB"/>
+<circle cx="0.989777" cy="200.877" r="67.1209" fill="#F6BF50"/>
+<circle cx="135.231" cy="200.877" r="67.1209" fill="#F6BF50"/>
+</g>
+<g clip-path="url(#clip1_4853_20679)">
+<rect width="134.242" height="134.242" transform="translate(0.989746 -0.486084)" fill="#ABD9D6"/>
+<circle cx="68.1106" cy="66.6348" r="67.1209" fill="#FCEA4C"/>
+<circle cx="68.1106" cy="66.6348" r="49.222" fill="#C89FEB"/>
+</g>
+<g clip-path="url(#clip2_4853_20679)">
+<rect width="134.242" height="134.242" transform="translate(135.231 133.756)" fill="#C89FEB"/>
+<g clip-path="url(#clip3_4853_20679)">
+<circle cx="202.352" cy="200.877" r="67.1209" transform="rotate(90 202.352 200.877)" fill="#815FED"/>
+</g>
+<g clip-path="url(#clip4_4853_20679)">
+<circle cx="202.352" cy="267.998" r="67.1209" transform="rotate(90 202.352 267.998)" fill="#815FED"/>
+</g>
+</g>
+<g clip-path="url(#clip5_4853_20679)">
+<rect width="134.242" height="134.242" transform="translate(135.231 -0.486084)" fill="#FCEA4C"/>
+<g clip-path="url(#clip6_4853_20679)">
+<circle cx="202.352" cy="66.6347" r="67.1209" transform="rotate(-90 202.352 66.6347)" fill="#344569"/>
+</g>
+<circle cx="202.352" cy="33.0744" r="33.5604" fill="#ABD9D6"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_4853_20679">
+<rect width="134.242" height="134.242" fill="white" transform="translate(0.989746 133.756)"/>
+</clipPath>
+<clipPath id="clip1_4853_20679">
+<rect width="134.242" height="134.242" fill="white" transform="translate(0.989746 -0.486084)"/>
+</clipPath>
+<clipPath id="clip2_4853_20679">
+<rect width="134.242" height="134.242" fill="white" transform="translate(135.231 133.756)"/>
+</clipPath>
+<clipPath id="clip3_4853_20679">
+<rect width="67.1209" height="134.242" fill="white" transform="translate(269.473 133.756) rotate(90)"/>
+</clipPath>
+<clipPath id="clip4_4853_20679">
+<rect width="67.1209" height="134.242" fill="white" transform="translate(269.473 200.877) rotate(90)"/>
+</clipPath>
+<clipPath id="clip5_4853_20679">
+<rect width="134.242" height="134.242" fill="white" transform="translate(135.231 -0.486084)"/>
+</clipPath>
+<clipPath id="clip6_4853_20679">
+<rect width="67.1209" height="134.242" fill="white" transform="translate(135.231 133.756) rotate(-90)"/>
+</clipPath>
+</defs>
+</svg>

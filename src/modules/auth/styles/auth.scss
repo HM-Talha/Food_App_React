@@ -1,0 +1,68 @@
+.onboarding-back-img {
+  position: absolute;
+  top: 32px;
+  left: 24px;
+}
+.auth-wrapper {
+  height: 100vh;
+  .splash-screen {
+    .logo-title {
+      font-weight: bolder;
+      font-size: 4rem;
+      padding-left: 0.5rem;
+      font-family: 'DM Sans';
+    }
+
+  }
+  .onboarding-back-img {
+    position: absolute;
+    top: 4%;
+    left: 4%;
+  }
+
+}
+
+.auth-container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .sign-in-wrapper {
+    height: calc(65vh + 7%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // padding-bottom: 3rem;
+    // padding-top: 7rem;
+  }
+  &__bg{
+    width: 100%;
+    height: 35vh;
+    margin-top: -7%;
+  }
+
+  &__brand{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin: 5% 0 0 0;
+  }
+
+  .auth-options {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .auth-options button {
+    margin-top: 1rem;
+  }
+  .auth-options button:first-child {
+    margin-top: 25%;
+  }
+}
+
+.pikky-logo-type-only-css {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}

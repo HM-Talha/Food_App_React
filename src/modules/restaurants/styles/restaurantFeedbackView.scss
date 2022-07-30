@@ -1,0 +1,141 @@
+.restaurant-view__header {
+  &.no-after:after {
+    content: none;
+  }
+}
+
+.feedback-view {
+  .feedback-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 99999999;
+
+    button {
+      margin-top: 40px;
+    }
+
+    .feedback-nav-items {
+      position: relative;
+
+      li {
+        font-weight: 400;
+        font-size: 15px;
+        color: #292929;
+      }
+    }
+
+    .nav-active {
+      // font-weight: bold;
+      position: relative;
+    }
+
+    #active-menu-indicator {
+      position: absolute;
+      top: 50%;
+      left: 24px;
+      width: 30px;
+      height: 30px;
+      border-radius: 50px;
+      background-color: #DBEF06;
+      transform: translate(-50%, -50%) scale(1);
+      transition-duration: .6s;
+      z-index: -1;
+    }
+
+    .active-anim {
+      animation: active-menu-anim .9s ease-in-out alternate;
+    }
+
+    // @keyframes active-menu-anim {
+    //   from {
+    //     transform: scale(0.6) translateY(-50%);
+    //   } to {
+    //     transform: scale(1) translateY(-50%);
+    //   }
+    // }
+
+  }
+
+  .restaurant-feedback-view {
+    padding: 0 24px;
+  }
+
+  .restaurant-feedback-view {
+    margin-top: 40px;
+
+    &:first-child {
+      margin-top: 23px !important;
+    }
+
+    &:last-child {
+      margin-bottom: 10px !important;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+
+      .label {
+        margin-left: 16px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        /* identical to box height */
+
+        letter-spacing: -0.5px;
+      }
+    }
+
+    .content {
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      margin-top: 24px;
+
+      .item {
+        padding: 20px 16px 16px;
+        background: #FAFAF5;
+        border-radius: 16px;
+
+        &.grid-span-2 {
+          grid-column: span 2 / span 2;
+          display: flex;
+          flex-direction: row-reverse;
+          justify-content: space-around;
+          align-items: center;
+        }
+
+        .icon {
+          width: auto !important;
+          height: auto !important;
+        }
+
+        .icon img {
+          display: block;
+          margin: auto;
+        }
+
+        .value span {
+          font-style: normal;
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 47px;
+
+          &:last-of-type {
+            font-size: 24px;
+          }
+        }
+
+        .name {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 21px;
+        }
+      }
+    }
+  }
+}

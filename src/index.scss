@@ -1,0 +1,160 @@
+@import "./sass/main.scss";
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none; /* iOS Safari */
+  // -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  /* user-select: none;  Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+.backdrop {
+  content: '';
+  width: 25px;
+  height: 25px;
+  background-color: var(--highlight-primary);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.sub-grey-text {
+  color: #8A8A87
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.ml-8 {
+  margin-left: .5rem;
+}
+
+.visibility-hidden {
+  visibility: hidden;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.mr-1 {
+  margin-right: 0.5rem;
+}
+
+.ml-3 {
+  margin-left: 2rem;
+}
+
+.mt-20 {
+  margin-top: 1.25rem; 
+}
+
+.h-0 {
+  height: 0 !important;
+}
+
+.picker-scroller {
+  border: none !important;
+  outline: none !important;
+}
+
+.outer_wrapper {
+  width: 100% !important;
+  height: 100vh;
+  background: #FAFAF5;
+  background-image: url('./assets/images/navBg.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: top;
+}
+
+.main_app_wrapper {
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  transition: all .2s ease-in-out;
+  transform: translate(-78%, 0px) scale(.90);
+  box-shadow: 56.9453px 190.678px 63px rgba(0, 0, 0, 0.02), 36.909px 123.588px 36.8958px rgba(0, 0, 0, 0.0151852), 21.9345px 73.4465px 20.0667px rgba(0, 0, 0, 0.0121481);
+  overflow-y: hidden;
+  border-radius: 19.0667px;
+}
+
+.slide-right {
+  transition: all .2s ease-in-out;
+}
+
+
+
+
+.side_nav_wrapper {
+  width: 82%;
+  height: 72vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.profile__nav {
+  padding-top: 24px !important;
+  padding-bottom: 24px !important;
+}
+
+.profile__nav--item {
+  color: #292929;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.profile__nav--item:hover {
+  background: transparent !important;
+}
+
+.user-name__wrapper {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0px;
+}
+
+.edit-user-profile {
+font-size: 14px;
+font-weight: 500;
+line-height: 18px;
+color: #748000;
+}
+
+.profile__nav {
+  margin-top: 24px;
+}
+
+button {
+  color: black;
+}

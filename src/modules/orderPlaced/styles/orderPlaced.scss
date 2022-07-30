@@ -1,0 +1,225 @@
+.main {
+    background: #fafaf5;
+}
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    // padding: 50px 0px 0px;
+}
+.back-button {
+    outline: none;
+    border: none;
+    background: #fafaf5;
+    padding: 0 20px;
+    // border: 1px solid red;
+}
+.experience{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #292929;
+}
+.top-help {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    width: 90%;
+}
+.placement {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #8A8A87;
+}
+.help {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+
+    width: 63px;
+    height: 37px;
+
+    /* Pikky Colors/Neutrals/BlackCod */
+
+    border: 1.5px solid #292929;
+    border-radius: 8px;
+    background: inherit;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.button-span {
+    width: 31px;
+    height: 16px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    display: flex;
+    align-items: center;
+
+    /* Pikky Colors/Neutrals/BlackCod */
+
+    color: #292929;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.circle-detail {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background: #ffffff;
+}
+.drawer {
+    text-align: center;
+    background: #ffffff;
+}
+.bottom-button {
+    outline: none;
+    border: none;
+    background: #ffffff;
+}
+.order-det {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 4px;
+    width: 180px;
+    background: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.order-number {
+    width: 120px;
+    height: 19px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: center;
+    color: #8A8A87;
+    background: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 25px;
+}
+.order-msg {
+    width: inherit;
+    height: 55px;
+    // padding: 18px;
+    margin-left: 18px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    background: #ffffff;
+    color: #292929;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.order-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 130px;
+    justify-content: center;
+    height: 11vh;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background: #ffffff;
+}
+.bottom-bottom{
+    display: flex;
+    flex-direction: row;
+    background: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+}
+.call-button {
+    border: none;
+    outline: none;
+    background: #ffffff;
+}
+.buttons {
+    background: #ffffff;
+}
+.small-circle {
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    right: 53%;
+    top: 20%;
+    border-radius: 100px;
+    background: rgba(219, 239, 6, 0.2);
+}
+.second-circle {
+    position: absolute;
+    width: 124px;
+    height: 124px;
+    left: 145px;
+    top: 32px;
+    border-radius: 100px;
+    background: rgba(219, 239, 6, 0.22);
+}
+.third-circle {
+    position: absolute;
+    width: 128px;
+    height: 128px;
+    right: 92px;
+    top: 47%;
+    border-radius: 100px;
+    background: rgba(219, 239, 6, 0.22);
+}
+.circle-item {
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+}

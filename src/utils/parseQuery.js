@@ -1,0 +1,1 @@
+export const stringToMap = (query) => (new Map(query.slice(1).split('&').map(e => e.split('='))))

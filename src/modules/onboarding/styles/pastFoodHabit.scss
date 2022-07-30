@@ -1,0 +1,280 @@
+html {
+  scroll-behavior: smooth;
+}
+.cuisine-selector {
+  scroll-behavior: smooth;
+  .vertical-scroll {
+    font-family: FoundersGrotesk;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    position: fixed;
+    right: 8px;
+    align-items: center;
+    justify-content: center;
+    top: 12%;
+    height: 70vh;
+    z-index: 999;
+    .rc-slider-step {
+      display: none;
+    }
+    .rc-slider-tooltip {
+      display: none;
+    }
+    .rc-slider-track {
+      background-color: transparent !important;
+    }
+    .rc-slider-vertical .rc-slider-mark {
+      left: 0px !important;
+    }
+    .rc-slider-handle {
+      width: 36px !important;
+      height: 36px !important;
+      left: -320% !important;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+    }
+    .rc-slider-handle:after {
+      display: none;
+    }
+    a {
+      text-transform: uppercase;
+      color: #c7c7c2 !important;
+      //line-height: 22px;
+      font-size: 14px;
+    }
+    a:hover {
+      transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+
+    .active-a {
+      color: #8A8A87 !important;
+    }
+  }
+  .past-food-habit {
+    width: 95%  ;
+  }
+}
+.past-food-habit {
+  padding: 0 5%;
+
+  .cuisine {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+
+
+    &__image-wrapper{
+      position: relative;
+
+      &--active{
+        img {
+          //filter: drop-shadow(0px 0px 6px rgb(218, 239, 4)) !important;
+        }
+
+        .highlight{
+          box-shadow: 2px 2px 20px #daef04;
+          border: 3px solid #DAEF04;
+          //filter: drop-shadow(0px 0px 6px rgb(219,239,6));
+        }
+      }
+      img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        box-shadow: 4px 11px 22px rgba(0, 0, 0, 0.08), 5px 6.0308px 3px rgba(0, 0, 0, 0.02), 5px 1.79553px 9.46px rgba(0, 0, 0, 0.04);
+        //filter: drop-shadow(10px 8px 4px rgba(0, 0, 0, 0.2))
+      }
+
+      div{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        color: var(--text-primary);
+        background-color: var(--highlight-primary);
+        font-size: 16px;
+        font-weight: 800;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: -3%;
+        right: 6%;
+      }
+    }
+
+
+
+    h6 {
+      font-size: 16px;
+      font-weight: 700;
+      margin-top: 5px;
+      width: 85%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-align: center;
+      text-transform: capitalize;
+    }
+  }
+
+  .cuisine-sub {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    position: relative;
+    margin: 4% 2%;
+
+    &--active{
+      img{
+        //filter: drop-shadow(0px 0px 8px rgb(219,239,6)) !important;
+      }
+      .highlight{
+        position: absolute;
+        top: -5px;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        background: #DAEF04;
+        z-index: -1;
+        filter: drop-shadow(0px 0px 6px rgb(219,239,6));
+      }
+    }
+
+
+    img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 4px 11px 22px rgba(0, 0, 0, 0.08), 5px 6.0308px 3px rgba(0, 0, 0, 0.02), 5px 1.79553px 9.46px rgba(0, 0, 0, 0.04);
+      //filter: drop-shadow(4px 2px 4px rgba(0, 0, 0, 0.2));
+      //filter: drop-shadow(4px 3px 7px rgba(0, 0, 0, 0.2))
+    }
+
+    h6 {
+      font-size: 14px;
+      font-weight: 700;
+      margin-top: 5px;
+      text-align: center;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-transform: capitalize;
+      padding-top: 10px;
+    }
+  }
+
+  .cuisine-list {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: baseline;
+  }
+  @keyframes moveIn {
+    0%   { transform: translateX(-40%); opacity: 0 }
+    100% { transform: translateX(0%); opacity: 1}
+  }
+
+  @keyframes increaseOpacity {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes increaseHeight {
+    0% {
+      width: 0px;
+      height: 0px;
+    }
+    100% {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .selected-cuisine{
+    animation: moveIn .5s linear 0.25s 1 normal forwards;
+    transform: translateX(-40%);
+    opacity: 0;
+    &__items{
+      margin-top: 8px;
+      display: flex;
+      overflow: auto;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+      opacity: 0;
+      animation: increaseOpacity .5s linear .5s 1 normal forwards;
+    }
+
+    &__info{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &--image{
+        position: relative;
+        img{
+          width: 120px;
+          height: 120px;
+          object-fit: cover;
+          border-radius: 50%;
+          border: #DBEF06 solid 5px;
+          box-shadow: 10.9461px 14.2893px 13px rgba(0, 0, 0, 0.05), 4.21626px 5.50402px 4.14074px rgba(0, 0, 0, 0.0368), 0.891901px 1.16431px 1.05926px rgba(0, 0, 0, 0.0431852);
+
+          //filter: drop-shadow(0px 0px 20px rgb(219,239,6));
+        }
+
+        .highlight{
+          box-shadow: 10.9461px 14.2893px 13px rgba(0, 0, 0, 0.05), 4.21626px 5.50402px 4.14074px rgba(0, 0, 0, 0.0368), 0.891901px 1.16431px 1.05926px rgba(0, 0, 0, 0.0431852);
+        }
+
+        .close{
+          width: 40px;
+          height: 40px;
+          background-color: var(--bg-1);
+          border: 2px solid var(--highlight-primary);
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          animation: increaseHeight .5s linear 0.25s 1 normal forwards;
+
+          svg{
+            width: 30px;
+            height: 30px;
+          }
+        }
+      }
+
+
+      h4{
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: capitalize;
+      }
+
+      p{
+        font-size: 12px;
+        margin: 10px 0;
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+.food-type-selector-wrapper svg text {
+  transform: scale(1.42);
+}

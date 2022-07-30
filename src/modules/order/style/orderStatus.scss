@@ -1,0 +1,63 @@
+.orderStatusOngoing,
+.orderStatusPicked,
+.orderStatusCancelled {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 2px 8px;
+    gap: 10px;
+
+    height: 18px;
+
+    border-radius: 4px;
+
+    p {
+        height: 14px;
+
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        line-height: 14px;
+    }
+}
+
+.orderStatusOngoing {
+    width: 96px;
+
+    background: linear-gradient(0deg, rgba(171, 217, 214, 0.2), rgba(171, 217, 214, 0.2)), #FFFFFF;
+
+    p {
+        width: 80px;
+
+        color: #344569;
+    }
+}
+
+.orderStatusPicked {
+    width: 69px;
+
+    background: linear-gradient(0deg, rgba(116, 128, 0, 0.1), rgba(116, 128, 0, 0.1)), #FFFFFF;
+
+    p {
+        width: 53px;
+
+        color: #748000;
+    }
+}
+
+.orderStatusCancelled {
+    width: 67px;
+
+    background: linear-gradient(0deg, rgba(252, 118, 71, 0.1), rgba(252, 118, 71, 0.1)), #FFFFFF;
+
+    p {
+        width: 51px;
+
+        color: #DD2E44;
+    }
+}

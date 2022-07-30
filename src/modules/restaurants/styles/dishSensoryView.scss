@@ -1,0 +1,28 @@
+circle {
+  transition: cx .5s ease-out, cy .5s ease-out;
+}
+
+.info-view-sensory {
+  position: absolute;
+  top: -1000px;
+  left: -10000px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 10px 20px;
+  border-radius: 1rem;
+  box-shadow: 0px 3px 6px 1px #daef04;
+  transition: top .5s ease-out, left .5s ease-out;
+}
+
+.sensory-header-wrapper {
+  display: flex;
+  // justify-content: flex-start;
+  flex-direction: row;
+  width: 100%;
+  padding: 42px 24px 0px;
+  .sensory-back {
+    width: 20px;
+    height: 20px;
+  }
+}

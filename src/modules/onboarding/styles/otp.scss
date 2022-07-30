@@ -1,0 +1,95 @@
+.usernumber-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+    .title{
+      font-family: 'DM Sans';
+      font-size: 23px;
+      font-weight: 500;
+      line-height: 26px;
+      letter-spacing: 0em;
+      text-align: left;
+      align-items: flex-start;
+    }
+    .titlee{
+      font-family: DM Sans;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 26px;
+      letter-spacing: 0em;
+      text-align: center;
+      height: 10%;
+      margin: 0 7%;
+    }
+}
+.button-wrapper{
+  Button{
+    height: 48px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #DBEF06;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    border: none;
+    justify-content: center;
+    align-items: center;
+  } 
+}
+.otp-input-container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  div{
+    input{
+      border: none;
+    }
+    input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: #CCCCC8;
+    }
+    input::-moz-placeholder { /* Firefox 19+ */
+      color: #CCCCC8;
+    }
+    input:-ms-input-placeholder { /* IE 10+ */
+      color: #CCCCC8;
+    }
+    input:-moz-placeholder { /* Firefox 18- */
+      color: #CCCCC8;
+    }
+    select{
+      outline: none;
+      border: none;
+    }
+    p1{
+      margin-top: 5vh;
+      font-size: 12px;
+    }
+  }
+}
+input:focus{
+  border: none;
+  outline: none;
+}
+input:active{
+  border: none;
+  outline: none;
+}
+.otp-resend{
+    display: flex;
+    justify-content: space-between;
+    Button{
+        margin-top: 4.1vh;
+        height: 30px;
+    }
+}
+
+.resend_button{
+    background-color: transparent;
+    border: none;
+   
+}

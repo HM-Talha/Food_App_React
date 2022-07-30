@@ -1,0 +1,76 @@
+.p-card{
+  display: block;
+  width: 100%;
+  height: 210px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-right: 20px;
+  position: relative;
+  cursor: pointer;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__header {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+
+    &--tag{
+      backdrop-filter: blur(10px);
+      background: rgba(0, 0, 0, .4);
+      display: flex;
+      align-items: center;
+      color: var(--bg-1);
+      font-size: 14px;
+      font-weight: 400;
+      padding: 8px;
+      line-height: 20px;
+      border-radius: 10px;
+    }
+
+    &--icons{
+      display: flex;
+    }
+
+
+    &--icon {
+      //width: 30px;
+      //height: 30px;
+      //border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      //background-color: var(--bg-1);
+      margin-right: 2px;
+      cursor: pointer;
+
+      svg {
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+  &__footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 34%;
+    backdrop-filter: blur(3px);
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    color: var(--bg-1);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px;
+    overflow: hidden;
+    border-radius: 0 0 20px 20px;
+  }
+}

@@ -1,0 +1,36 @@
+.simple-tag{
+  background-color: var(--bg-3);
+  padding: 4px 8px;
+  line-height: 10px;
+  border-radius: 8px;
+  text-transform: capitalize;
+  text-align: center;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.p-tag{
+  background-color: var(--bg-1);
+  color: var(--text-primary);
+  padding: 20px 30px;
+  line-height: 8px;
+  border-radius: 8px;
+  font-size: 16px;
+  border: 2px solid var(--highlight-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &--active{
+    font-weight: 700;
+    background-color: var(--highlight-primary);
+  }
+  &--active-secondary{
+    font-weight: 700;
+    background: rgba(219, 239, 6, 0.3);
+  }
+}

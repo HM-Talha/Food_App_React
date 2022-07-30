@@ -1,0 +1,55 @@
+.settings-header-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 24px 0px;
+}
+
+.mainSettingsContainer {
+    padding: 40px 24px;
+}
+
+.settingsHeader {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+
+    .iconContainer {
+        width: 24px;
+        height: 24px;
+
+        svg {
+            width: 16px;
+            height: 14px;
+        }
+    }
+}
+
+.settingsHeading {
+    margin-top: 36px;
+}
+
+.pageLinkContainer,
+.largePageLinkContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 16px;
+    height: 72px;
+    border: 1px solid #F2F2ED;
+    border-radius: 12px;
+    margin-top: 16px !important;
+}
+
+.largePageLinkContainer {
+    height: 100px !important;
+
+    div p:last-of-type {
+        margin-top: 8px;
+        color: #8A8A87 !important;
+    }
+}
+
+.logoutText {
+    margin-left: 8px;
+}

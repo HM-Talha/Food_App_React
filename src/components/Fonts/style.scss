@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "FoundersGrotesk";
+    src: url('../../assets/fonts/ttf/FoundersGrotesk-Regular.ttf');
+}
+
+@font-face {
+    font-family: "FoundersGrotesk-Medium";
+    src: url('../../assets/fonts/ttf/FoundersGrotesk-Medium.ttf');
+}
+
+.font-family-FoundersGrotesk {
+    font-family: FoundersGrotesk;
+    font-style: normal;
+}
+
+.level-large-tile {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 41px;
+    color: #292929;
+}
+
+.level-1 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #292929;
+}
+
+.level-2 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #292929;
+}
+
+.level-3 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #292929;
+}
+
+.head-line {
+    font-family: FoundersGrotesk-Medium;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 22px;
+    color: #292929;
+}
+
+.sub-heading {
+    font-family: FoundersGrotesk;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #292929;
+}
+
+.body-text {
+    font-family: FoundersGrotesk !important;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.call-out {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.foot-note {
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+}
+
+.caption {
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+}
+
+.xl-large-text {
+    font-family: FoundersGrotesk-Medium;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 64px;
+}

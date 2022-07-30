@@ -1,0 +1,56 @@
+.profile{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  &__hero{
+    background-image: url("../../../assets/images/Group 626146.png");
+    height: 163px;
+    position: relative;
+    padding: 10px 20px;
+
+    &--back{
+      background-color: var(--bg-1);
+      border-radius: 50%;
+      padding: 10px;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-items: center;
+    }
+
+    &--footer{
+        position: absolute;
+       bottom: 0;
+      left: 0;
+      backdrop-filter: blur(6px);
+      background: rgba(0, 0, 0, 0.3);
+      width: 100%;
+      padding: 10px 20px;
+      color: var(--bg-1);
+    }
+  }
+
+  &__logout{
+    margin-top: auto;
+    color: rgb(221, 46, 68);
+    padding: 15px 20px 40px 20px !important;
+  }
+
+  &__nav{
+    padding: 50px 20px ;
+
+    &--item{
+      padding: 15px 5px;
+      display: flex;
+      align-items: center;
+
+      &:hover{
+        background-color: var(--bg-3);
+      }
+
+      
+    }
+  }
+}

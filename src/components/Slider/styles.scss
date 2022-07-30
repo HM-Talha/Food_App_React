@@ -1,0 +1,33 @@
+.rc-slider-tooltip-inner{
+  width: 40px;
+  height: 40px;
+  background-color: var(--highlight-primary);
+  border-radius: 50%;
+  color: var(--text-primary);
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rc-slider-rail{
+  border-radius: 0 !important;
+}
+
+.rc-slider-tooltip-arrow{
+  display: none;
+}
+
+.rc-slider-handle:after {
+  //content: "21";
+  content: attr(dataafter);
+  position: fixed;
+  top: 35px;
+  bottom: 0px;
+  left: 5px;
+  right: 0;
+  width: 1rem;
+  height: 1rem;
+  z-index: 10;
+}

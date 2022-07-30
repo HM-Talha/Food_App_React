@@ -1,0 +1,36 @@
+.p-button{
+  box-shadow: none;
+  border: none;
+  background: transparent;
+  outline: none;
+  width: 100%;
+  color: var(--text-primary);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  height: 48px !important;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "DM Sans", sans-serif;
+
+
+  &--primary{
+    color: var(--text-primary);
+    background-color: var(--highlight-primary);
+  }
+
+  &--secondary{
+      border: 2px solid var(--text-primary);
+  }
+
+
+
+
+  &__icon{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+}

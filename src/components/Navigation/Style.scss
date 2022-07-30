@@ -1,0 +1,29 @@
+.nav-active {
+    // font-weight: bold;
+    position: relative;
+  }
+
+  #active-menu-indicator {
+    position: absolute;
+    top: 50%;
+    left: 24px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #DBEF06;
+    transform: translate(-50%, -50%) scale(1);
+    transition-duration: .6s;
+    z-index: -1;
+  }
+
+  .active-anim {
+    animation: active-menu-anim .9s ease-in-out alternate;
+  }
+
+  // @keyframes active-menu-anim {
+  //   from {
+  //     transform: scale(0.6) translateY(-50%);
+  //   } to {
+  //     transform: scale(1) translateY(-50%);
+  //   }
+  // }

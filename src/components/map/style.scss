@@ -1,0 +1,32 @@
+.location__marker {
+    width: 60px;
+    height: 57.44px;
+    background-color: #DBEF06;
+    border: 5px solid #292929;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-point {
+    width: 16px;
+    height: 16px;
+    background: #292929;
+    border-radius: 16px;
+}
+
+#triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 14px solid #292929;
+
+  }
+
+  .marker__wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }

@@ -1,0 +1,117 @@
+.preference-wrapper {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.preference-body {
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-top: 85px;
+  position: absolute;
+  width: 100%;
+  padding-bottom: 24px;
+}
+
+.open-edit-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.event-wrapper {
+  border: 1px solid #F2F2ED;
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 16px;
+
+  .event-dis-and-title {
+    padding-left: 16px;
+    padding-right: 16px;
+    flex: 1;
+  }
+
+  h6 {
+    font-size: 14px;
+    font-weight: 600 !important;
+    font-family: 'DM Sans';
+  }
+
+  p {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #8A8A87;
+
+  }
+}
+
+.preference-popup-wrapper {
+ .f-l__wrapper {
+   h4 {
+     margin-bottom: 8px important;
+    }
+  }
+}
+
+.food-preference-tab {
+  width: 100%;
+  border: 1px solid #E5E5E1;
+  border-radius: 32px;
+  background: #FFFFFF;
+  height: 52px;
+  margin-top: 20px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+
+  button {
+    width: 100%;
+    border: none;
+    border-radius: 32px;
+    background: none;
+    font-weight: 500 !important;
+    z-index: 10;
+    
+  }
+
+  .tab-overlay{
+    width: 50%;
+    height: 42px;
+    background: #F8FCCD;
+    position: absolute;   
+    border-radius: 32px;
+    transition: all 0.3s ease;
+  }
+
+  .non-vegetarian {
+    transform: translate(95%, 0);
+    
+  }
+
+  .vegetarian {
+    transform: translate(0, 0);
+  }
+
+
+}
+
+
+span.food-preference-modal-link {
+  padding: 0px !important;
+  h6 {
+    margin-bottom: 0px !important;
+  }
+}
+
+.link-disable-text{
+  color: #8A8A87 !important;
+}

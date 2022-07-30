@@ -1,0 +1,30 @@
+<svg width="360" height="60" viewBox="0 0 360 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0)">
+        <rect width="120" height="60" fill="#815FED"/>
+        <circle cx="60" cy="60" r="60" fill="#ABD9D6"/>
+    </g>
+    <g clip-path="url(#clip1)">
+        <rect width="120" height="60" transform="translate(120)" fill="#FCEA4C"/>
+        <circle cx="180" cy="30" r="30" fill="#ABD9D6"/>
+    </g>
+    <g clip-path="url(#clip2)">
+        <rect width="120" height="60" transform="translate(240)" fill="#C89FEB"/>
+        <g clip-path="url(#clip3)">
+            <circle cx="300" cy="60" r="60" transform="rotate(90 300 60)" fill="#815FED"/>
+        </g>
+    </g>
+    <defs>
+        <clipPath id="clip0">
+            <rect width="120" height="60" fill="white"/>
+        </clipPath>
+        <clipPath id="clip1">
+            <rect width="120" height="60" fill="white" transform="translate(120)"/>
+        </clipPath>
+        <clipPath id="clip2">
+            <rect width="120" height="60" fill="white" transform="translate(240)"/>
+        </clipPath>
+        <clipPath id="clip3">
+            <rect width="60" height="120" fill="white" transform="translate(360) rotate(90)"/>
+        </clipPath>
+    </defs>
+</svg>

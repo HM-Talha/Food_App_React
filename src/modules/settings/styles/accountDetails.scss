@@ -1,0 +1,211 @@
+.mainAccountDetailsContainer {
+    padding: 40px 24px 24px 24px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.accountInputField:first-of-type {
+    margin-top: 36px;
+}
+
+.accountInputField {
+    background: #FAFAF5;
+    border: #FAFAF5;
+    border-radius: 8px;
+    width: 100%;
+    height: 48px;
+    padding: 16px;
+    margin-bottom: 24px;
+    outline: none !important;
+    color: #292929;
+}
+
+.genderDetailHeading {
+    margin-top: 16px;
+}
+
+.genderSelectorContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    margin-top: 16px;
+
+    .selectedGender:first-of-type,
+    .unselectedGender:first-of-type {
+        margin-left: 0 !important;
+    }
+
+    .selectedGender,
+    .unselectedGender {
+        margin-left: 12px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 24px;
+
+        width: 104px;
+        height: 40px;
+
+        background: #FFFFFF;
+
+        border: 1.5px solid #DBEF06;
+        border-radius: 4px;
+        transition: 0.2s all;
+
+        p {
+            color: #000000;
+        }
+    }
+
+    .selectedGender {
+        background: rgba(219, 239, 6, 0.3) !important;
+    }
+}
+
+.ageDetailHeading,
+.contactDetailHeading {
+    margin-top: 40px;
+}
+
+.ageDetailHeading {
+    margin-bottom: 12px !important;
+}
+
+.contactDetailHeading {
+    margin-bottom: 24px !important;
+}
+
+.splide__slide.is-visible.is-prev,
+.splide__slide.is-visible.is-next,
+.splide__slide.is-visible,
+.splide__slide {
+    .ageBlock {
+        background: rgba(0, 0, 0, .0);
+
+        p {
+            font-size: 21px !important;
+        }
+    }
+}
+
+.splide__slide.is-visible.is-prev,
+.splide__slide.is-visible.is-next {
+    .ageBlock p {
+        font-size: 28px !important;
+    }
+}
+
+
+.splide__slide.is-visible.is-active {
+    .ageBlock {
+        background: rgba(219, 239, 6, .2);
+
+        p {
+            color: #292929;
+            font-size: 40px !important;
+        }
+    }
+}
+
+.ageBlock {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.saveChangesButton {
+    background: #DBEF06 !important;
+    border: #DBEF06 !important;
+    color: #292929 !important;
+}
+
+.saveChangesButton,
+.saveChangesButton:disabled,
+.saveChangesButton[disabled] {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+
+    width: 100%;
+    height: 48px;
+
+    background: #E5E5E1;
+    border: #E5E5E1;
+    border-radius: 8px !important;
+    color: #8A8A87;
+    font-weight: 500 !important;
+}
+
+.accountDetailsPopupContainer {
+    padding: 8px 0 24px 0;
+    height: 100%;
+}
+
+.accountDetailsBodyStyles {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 98px);
+}
+
+.buttonContainer {
+    padding: 0 24px;
+
+    button {
+       bottom: 24px;
+       right: 0;
+    }
+}
+
+.accountDetailsTitleContainer {
+    border-bottom: 1px solid #F2F2ED;
+    padding-bottom: 16px;
+}
+
+.accountDetailsPopupTitle {
+    margin-top: 12px;
+    padding: 0 24px;
+}
+
+.accountDetailsPopupSubtitle {
+    color: #8A8A87 !important;
+    padding: 0 24px;
+}
+
+.accountOTPInputContainer {
+
+    margin: 28px 0 48px 0;
+    padding: 0 24px;
+
+    .accountOTPInput {
+        outline: none !important;
+        width: 284px;
+        height: 34px;
+        border: #FFFFFF;
+        display: flex;
+        align-items: center;
+        padding: 20px 0
+    }
+
+    .accountOTPWarning {
+        margin-top: 12px;
+        height: 18px;
+        color: #DD2E44 !important;
+    }
+}
+
+.otpResendContainer {
+    padding: 0 24px;
+
+    p:last-of-type {
+        color: #748000;
+    }
+}

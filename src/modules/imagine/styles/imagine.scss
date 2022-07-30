@@ -1,0 +1,224 @@
+p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    margin-bottom: 0;
+}
+
+.mainContainer,
+.splashScreen {
+    min-height: 100vh;
+    overflow: auto;
+}
+
+.splashScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .yellowLine {
+        width: 60px;
+        height: 2px;
+        left: 150px;
+        top: 359px;
+
+        background: var(--highlight-primary);
+        border-radius: 2px;
+    }
+
+    .imagineIcon {
+        width: 256.88px;
+        height: 30px;
+    }
+
+    .pikkyLogo {
+        width: 122px;
+        height: 32px;
+        margin-bottom: 20px;
+    }
+}
+
+
+.mainContainer {
+    .header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 20px;
+
+        .imagineHeading {
+            margin-left: 16px;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 26px;
+            letter-spacing: -0.5px;
+            color: #292929;
+        }
+    }
+}
+
+.body {
+    padding: 0 20px;
+    overflow: auto;
+
+    .dishContainer {
+        min-height: 270px;
+    }
+
+    .dishImagineContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 276px;
+    }
+
+    .nearbyRestaurantsContainer {
+        background: var(--bg-2);
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 12px;
+        gap: 18px;
+        border-radius: 12px;
+    }
+
+    .forwardIcon {
+        transform: scaleX(-1);
+    }
+
+    .sensoryTagsHeading {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        text-align: center;
+        letter-spacing: -0.5px;
+        color: #292929;
+    }
+
+    .selectedTagsContainer,
+    .unselectedTagsContainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+
+        .tag {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 8px 16px;
+            gap: 8px;
+            height: 47px;
+            border-radius: 12px;
+        }
+    }
+
+    .selectedTagsContainer .tag {
+
+        background: rgba(219, 239, 6, 0.2);
+    }
+
+    .unselectedTagsContainer {
+        margin-bottom: 20px;
+        min-height: 106px;
+
+        .tag {
+            background: var(--bg-2);
+        }
+    }
+}
+
+.selectionBarContainer {
+    filter: drop-shadow(0px 38px 20px rgba(0, 0, 0, 0.02)) drop-shadow(0px 24.6296px 11.713px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 14.637px 6.37037px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 7.6px 3.25px rgba(0, 0, 0, 0.01)) drop-shadow(0px 3.0963px 1.62963px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 0.703704px 0.787037px rgba(0, 0, 0, 0.00481481));
+    height: 48px;
+    width: 152px;
+    position: fixed;
+    left: 50%;
+    bottom: 2.5%;
+
+    transform: translateX(-50%);
+}
+
+.selectionBar {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #FFFFFF;
+
+    border: 1px solid var(--bg-2);
+    backdrop-filter: blur(20px);
+
+    border-radius: 12px;
+}
+
+.selectedSection {
+    display: flex;
+    flex-direction: column;
+    height: 32px;
+    width: 32px;
+}
+
+.sectionSelectionIndicatorIngredients,
+.sectionSelectionIndicatorNutrition,
+.sectionSelectionIndicatorSensory {
+    width: 32px;
+    height: 4px;
+    transition: all 0.2s;
+    margin: auto 0 0 0;
+
+    background: #DBEF06;
+    box-shadow: -0.612217px -15.9883px 36px rgba(219, 239, 6, 0.65), -0.396807px -10.3628px 21.0833px rgba(219, 239, 6, 0.493519), -0.235817px -6.15845px 11.4667px rgba(219, 239, 6, 0.394815), -0.122443px -3.19766px 5.85px rgba(219, 239, 6, 0.325), -0.0498843px -1.30275px 2.93333px rgba(219, 239, 6, 0.255185), -0.0113374px -0.296079px 1.41667px rgba(219, 239, 6, 0.156481);
+}
+
+.sectionSelectionIndicatorNutrition {
+    margin: auto 64px 0 0;
+}
+
+.sectionSelectionIndicatorSensory {
+    margin: auto 0 0 64px;
+}
+
+.icon {
+    height: 32px;
+    width: 32px;
+}
+
+.popupModalLayout {
+    padding: 10px 0;
+
+    .popupTitleContainer {
+        margin-bottom: 1.5rem;
+        border-bottom: 1px solid #F2F2ED;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 8px 24px 16px;
+        gap: 8px;
+
+
+        h4 {
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 26px;
+
+            letter-spacing: -0.5px;
+
+            color: #292929;
+        }
+    }
+
+    .popupBodyStyles {
+        padding: 0 24px;
+    }
+}

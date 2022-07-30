@@ -1,0 +1,68 @@
+
+.checkout__container {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .p-loader--component {
+        height: 5vh !important;
+        div {
+            height: 100% !important;
+        }
+    }
+}
+
+.location__card_wrapper {
+    width: 100%;
+    height: 78px;
+    padding: 1rem;
+    background-color: #FAFAF5;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+  
+    .action-btn {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: content;
+        align-content: space-around;
+        button {
+            border: none;
+            background: none;
+            color: #748000;
+            outline: none;
+            box-shadow: none;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: .5px;
+        }   
+    } 
+
+    .place {
+        display: flex;
+        align-items: center;
+        
+        h5 {
+            margin-bottom: 0;
+        }
+    }
+
+    p.description {
+        font-size: 12px;
+        line-height: 14px;
+        margin-top: 4px;
+        color: #292929;
+    }
+}
+
+.title-text-order {
+    color: #292929;
+    font-size: 12px;
+
+}
+
+
+iframe {
+    display: none;
+}

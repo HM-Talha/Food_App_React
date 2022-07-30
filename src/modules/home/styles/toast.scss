@@ -1,0 +1,64 @@
+.toast-msg {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 2px;
+
+    width: 280px;
+    height: 39px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.toast-bold {
+    width: 280px;
+    height: 20px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+    letter-spacing: -0.5px;
+
+    /* Pikky Colors/Neutrals/BlackCod */
+
+    color: #292929;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.toast-light {
+    width: 280px;
+    height: 17px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+
+    letter-spacing: -0.5px;
+
+    /* Pikky Colors/Neutrals/Gray 5 */
+
+    color: #8A8A87;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

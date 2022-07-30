@@ -1,0 +1,29 @@
+<svg width="360" height="318" viewBox="0 0 360 318" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_4789_20371" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="120" y="32" width="240" height="286">
+<path d="M120 150L240 32L360 150V318H120V150Z" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0_4789_20371)">
+<rect width="120" height="120" transform="translate(120 30)" fill="#FC7647"/>
+<path d="M120 150L240 30V150H120Z" fill="#815FED"/>
+<g clip-path="url(#clip0_4789_20371)">
+<rect width="120" height="120" transform="translate(120 270)" fill="#FC7647"/>
+<rect x="120" y="270" width="120" height="12" fill="#ABD9D6"/>
+<rect x="120" y="294" width="120" height="12" fill="#ABD9D6"/>
+</g>
+<rect width="120" height="120" transform="translate(120 150)" fill="#ABD9D6"/>
+<circle cx="180" cy="210" r="60" fill="#FCEA4C"/>
+<circle cx="180" cy="210" r="44" fill="#C89FEB"/>
+<rect width="120" height="120" transform="translate(240 30)" fill="#C89FEB"/>
+<path d="M359 91L300 31L241 91L300 149L359 91Z" fill="#FCEA4C"/>
+<rect width="120" height="120" transform="translate(240 270)" fill="#F6BF50"/>
+<path d="M359 331L300 271L241 331L300 389L359 331Z" fill="#344569"/>
+<rect width="120" height="120" transform="translate(240 150)" fill="#ABD9D6"/>
+<path d="M240 270L360 150V270H240Z" fill="#815FED"/>
+<path d="M360 270L240 150V270H360Z" fill="#C89FEB"/>
+</g>
+<defs>
+<clipPath id="clip0_4789_20371">
+<rect width="120" height="120" fill="white" transform="translate(120 270)"/>
+</clipPath>
+</defs>
+</svg>

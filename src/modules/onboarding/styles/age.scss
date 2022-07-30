@@ -1,0 +1,67 @@
+.select-age-wrapper {
+  //padding: 0px;
+  width: 85%;
+  //border-radius: 4px;
+  margin-bottom: 2rem;
+}
+
+.age-picker-wrapper {
+  width: 80%;
+  font-family: FoundersGrotesk-Medium;
+  font-weight: 500;
+  //margin-top: 1rem;
+  .picker-item {
+    color: #E5E5E1 !important;
+    font-size: 18px;
+    z-index: -1;
+
+    .sibling-selected {
+      font-size: 28px;
+      height: auto!important;
+    }
+
+  }
+
+  .picker-item:has(.sibling-selected) {
+    height: 50px;
+  }
+
+  .picker-item-selected {
+    color: black !important;
+    font-size: 40px;
+    width: 25%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    border-radius: 100%;
+    //background: #DBEF06;
+  }
+
+  .picker-highlight {
+    z-index: 99;
+    opacity: .2 !important;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 47% !important;
+    border-radius: 100%;
+    background: #DBEF06;
+    height: 90px !important;
+    width: 90px !important;
+
+    &::before, &::after {
+      background-color: white !important;
+    }
+  }
+
+}
+
+.on-boarding-header {
+  flex: 1;
+  background-image: url('../../../assets/images/main-bg.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: top;
+  width: 100%;
+}

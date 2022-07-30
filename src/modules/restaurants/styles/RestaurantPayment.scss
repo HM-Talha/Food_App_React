@@ -1,0 +1,133 @@
+.Card-div{
+    display: flex;
+    position: relative;
+    width: 85vw;
+    margin: auto;
+    margin-top: 41px;
+    align-items: center;
+    h1{
+        font-family: DM Sans;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: -0.5px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    color: #292929;
+}
+.p-1{
+    display: flex;
+    flex-direction: column;
+    color: #292929;
+    margin: auto;
+    justify-content: space-between;
+    // height: 100%;
+}
+.Card-heading{
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 80vw;
+    margin: auto;
+    margin-top: 23px;
+    margin-bottom: 18px;
+    color: #292929;
+}
+.check{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #292929;
+  }
+.check2{
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #292929;
+}
+.Add-card{
+    // border: 1px solid black;
+    width: 144px;
+    height: 36px;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: auto;
+    margin-top: 10vh;
+    color: #292929;
+}
+.Card-design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: none;
+    flex-direction: column;
+}
+.Card-Input{
+    justify-content: center;
+    align-items: center;
+    color: #292929;
+    text-align: center;
+    margin-top: 124px;
+    // height: 48px;
+    // width: 80vw;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    input{
+        height: 48px;
+        width: 80vw;
+        left: 0px;
+        top: 0px;
+        border-radius: 8px;
+        background-color: #FAFAF5;
+        border: none;
+        font-family: DM Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-left: 15px;
+        margin-bottom: 3vh;
+    }
+}
+.Card-Input input:focus{
+    border: 1px solid #DBEF06;
+}
+.Month-year{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    input{
+        text-align: center;
+    }
+    p{
+        height: 48px;
+        width: 1px;
+        background-color : #D7D7D7;
+        margin-bottom: 0px;
+    }
+}
+.Month-year input:focus{
+   border: none;
+}
+
+.Card-Style{
+    box-shadow: 0px 115.419px 74.3374px rgba(113, 123, 0, 0.12), 0px 42.1297px 27.1344px rgba(113, 123, 0, 0.0827978), 0px 20.4532px 13.1732px rgba(113, 123, 0, 0.0667549), 0px 10.0265px 6.45777px rgba(113, 123, 0, 0.0532451), 0px 3.96451px 2.55341px rgba(113, 123, 0, 0.0372022);
+    border-radius: 16px;
+}

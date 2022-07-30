@@ -1,0 +1,5386 @@
+[{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3121c0"
+  },
+  "name": "afghan",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eaf48a877a6a73ef3121c1"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10001"
+    },
+    {
+      "_id": {
+        "$oid": "60eaf48a877a6a73ef3121c2"
+      },
+      "name": "hazaragi",
+      "cuisineID": "CUIC10002"
+    },
+    {
+      "_id": {
+        "$oid": "60eaf48a877a6a73ef3121c3"
+      },
+      "name": "pashtun",
+      "cuisineID": "CUIC10003"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.356Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10001"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3121c4"
+  },
+  "name": "albanian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.358Z"
+  },
+  "cuisineID": "CUIP10002"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3121c6"
+  },
+  "name": "american",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb1c0c363cea90d4de7fba"
+      },
+      "name": "texmex",
+      "cuisineID": "CUIC10004",
+      "image": {
+        "imageName": "CUIC10004.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10004.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c0c363cea90d4de7fbb"
+      },
+      "name": "soul food",
+      "cuisineID": "CUIC10005",
+      "image": {
+        "imageName": "CUIC10005.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10005.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c0c363cea90d4de7fbc"
+      },
+      "name": "amish",
+      "cuisineID": "CUIC10006",
+      "image": {
+        "imageName": "CUIC10006.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10006.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c0c363cea90d4de7fbd"
+      },
+      "name": "new england",
+      "cuisineID": "CUIC10007",
+      "image": {
+        "imageName": "CUIC10007.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10007.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c0c363cea90d4de7fbe"
+      },
+      "name": "philadelphia",
+      "cuisineID": "CUIC10008"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c0c363cea90d4de7fbf"
+      },
+      "name": "new york city",
+      "cuisineID": "CUIC10009"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c0c363cea90d4de7fc0"
+      },
+      "name": "new jersey",
+      "cuisineID": "CUIC10010"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c0c363cea90d4de7fc1"
+      },
+      "name": "maryland",
+      "cuisineID": "CUIC10011"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c0c363cea90d4de7fc2"
+      },
+      "name": "california",
+      "cuisineID": "CUIC10012"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c0c363cea90d4de7fc3"
+      },
+      "name": "midwestern",
+      "cuisineID": "CUIC10013",
+      "image": {
+        "imageName": "CUIC10013.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10013.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c0c363cea90d4de7fc4"
+      },
+      "name": "southern",
+      "cuisineID": "CUIC10014",
+      "image": {
+        "imageName": "CUIC10014.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10014.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c0c363cea90d4de7fc5"
+      },
+      "name": "pacific northwestern",
+      "cuisineID": "CUIC10015",
+      "image": {
+        "imageName": "CUIC10015.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10015.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c0c363cea90d4de7fc6"
+      },
+      "name": "cajun",
+      "cuisineID": "CUIC10016",
+      "image": {
+        "imageName": "CUIC10016.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10016.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c0c363cea90d4de7fc7"
+      },
+      "name": "alaskan",
+      "cuisineID": "CUIC10017",
+      "image": {
+        "imageName": "CUIC10017.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10017.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c0c363cea90d4de7fc8"
+      },
+      "name": "appalachian",
+      "cuisineID": "CUIC10018",
+      "image": {
+        "imageName": "CUIC10018.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10018.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c0c363cea90d4de7fc9"
+      },
+      "name": "creole",
+      "cuisineID": "CUIC10176",
+      "image": {
+        "imageName": "CUIC10019.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10019.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c0c363cea90d4de7fca"
+      },
+      "name": "new mexican",
+      "cuisineID": "CUIC10020",
+      "image": {
+        "imageName": "CUIC10020.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10020.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c0c363cea90d4de7fcb"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10021",
+      "image": {
+        "imageName": "CUIC10021.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10021.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c0c363cea90d4de7fcc"
+      },
+      "name": "pennsylvania dutch",
+      "cuisineID": "CUIC10022",
+      "image": {
+        "imageName": "CUIC10022.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10022.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c0c363cea90d4de7fcd"
+      },
+      "name": "southwestern",
+      "cuisineID": "CUIC10023",
+      "image": {
+        "imageName": "CUIC10023.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10023.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c0c363cea90d4de7fce"
+      },
+      "name": "hawaiian",
+      "cuisineID": "CUIC10024"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.361Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10003"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3121eb"
+  },
+  "name": "argentine",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb1c39fd08679128f78fc3"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10025"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c39fd08679128f78fc4"
+      },
+      "name": "argentine northwest",
+      "cuisineID": "CUIC10026"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c39fd08679128f78fc5"
+      },
+      "name": "pampas",
+      "cuisineID": "CUIC10027"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c39fd08679128f78fc6"
+      },
+      "name": "mesopotamia",
+      "cuisineID": "CUIC10028"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c39fd08679128f78fc7"
+      },
+      "name": "patagonia",
+      "cuisineID": "CUIC10029"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.363Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10004"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3121f1"
+  },
+  "name": "armenian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.363Z"
+  },
+  "cuisineID": "CUIP10005"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3121f3"
+  },
+  "name": "australian",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb1c66dc2b18915c4992d5"
+      },
+      "name": "tasmanian",
+      "cuisineID": "CUIC10030"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c66dc2b18915c4992d6"
+      },
+      "name": "modern australian",
+      "cuisineID": "CUIC10031"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c66dc2b18915c4992d7"
+      },
+      "name": "victoria",
+      "cuisineID": "CUIC10032"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c66dc2b18915c4992d8"
+      },
+      "name": "southern australian",
+      "cuisineID": "CUIC10033"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c66dc2b18915c4992d9"
+      },
+      "name": "new south wales",
+      "cuisineID": "CUIC10034"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c66dc2b18915c4992da"
+      },
+      "name": "western australian",
+      "cuisineID": "CUIC10035"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c66dc2b18915c4992db"
+      },
+      "name": "queensland",
+      "cuisineID": "CUIC10036"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c66dc2b18915c4992dc"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10037"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.365Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10006"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3121fc"
+  },
+  "name": "austrian",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb1c94a90e9d9199b53335"
+      },
+      "name": "burgenland",
+      "cuisineID": "CUIC10038"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c94a90e9d9199b53336"
+      },
+      "name": "upper austrian",
+      "cuisineID": "CUIC10039"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c94a90e9d9199b53337"
+      },
+      "name": "lower austrian",
+      "cuisineID": "CUIC10040"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c94a90e9d9199b53338"
+      },
+      "name": "carinthian",
+      "cuisineID": "CUIC10041"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c94a90e9d9199b53339"
+      },
+      "name": "tyrolean",
+      "cuisineID": "CUIC10042"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c94a90e9d9199b5333a"
+      },
+      "name": "styrian",
+      "cuisineID": "CUIC10043"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c94a90e9d9199b5333b"
+      },
+      "name": "vorarlberg",
+      "cuisineID": "CUIC10044"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c94a90e9d9199b5333c"
+      },
+      "name": "viennese",
+      "cuisineID": "CUIC10045"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c94a90e9d9199b5333d"
+      },
+      "name": "salzburg",
+      "cuisineID": "CUIC10046"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1c94a90e9d9199b5333e"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10047"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.366Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10007"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312207"
+  },
+  "name": "azerbaijani",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.367Z"
+  },
+  "cuisineID": "CUIP10008"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31220d"
+  },
+  "name": "belarusian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.368Z"
+  },
+  "cuisineID": "CUIP10009"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312209"
+  },
+  "name": "bahraini",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.367Z"
+  },
+  "cuisineID": "CUIP10010"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312217"
+  },
+  "name": "bosnian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.370Z"
+  },
+  "cuisineID": "CUIP10011"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31220f"
+  },
+  "name": "belgian",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb1cbecde6729219a3a893"
+      },
+      "name": "wallonia",
+      "cuisineID": "CUIC10048"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1cbecde6729219a3a894"
+      },
+      "name": "flemish",
+      "cuisineID": "CUIC10049"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1cbecde6729219a3a895"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10050"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.368Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10013"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312213"
+  },
+  "name": "bhutanese",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.369Z"
+  },
+  "cuisineID": "CUIP10012"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31220b"
+  },
+  "name": "bangladeshi",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.367Z"
+  },
+  "cuisineID": "CUIP10014"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312215"
+  },
+  "name": "bolivian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.369Z"
+  },
+  "cuisineID": "CUIP10015"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312219"
+  },
+  "name": "brazilian",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb1ce22f71e5924d03cc1a"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10051"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ce22f71e5924d03cc1b"
+      },
+      "name": "northern brazilian",
+      "cuisineID": "CUIC10052"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ce22f71e5924d03cc1c"
+      },
+      "name": "amazonian",
+      "cuisineID": "CUIC10053"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ce22f71e5924d03cc1d"
+      },
+      "name": "southern brazilian",
+      "cuisineID": "CUIC10054"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ce22f71e5924d03cc1e"
+      },
+      "name": "center-west brazilian",
+      "cuisineID": "CUIC10055"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ce22f71e5924d03cc1f"
+      },
+      "name": "northeast brazilian",
+      "cuisineID": "CUIC10056"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ce22f71e5924d03cc20"
+      },
+      "name": "southeast brazilian",
+      "cuisineID": "CUIC10057"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.371Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10016"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312221"
+  },
+  "name": "british",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb1d14ee0bf79283ce09d4"
+      },
+      "name": "gower",
+      "cuisineID": "CUIC10058"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d14ee0bf79283ce09d5"
+      },
+      "name": "welsh",
+      "cuisineID": "CUIC10059"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d14ee0bf79283ce09d6"
+      },
+      "name": "northern irish",
+      "cuisineID": "CUIC10060"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d14ee0bf79283ce09d7"
+      },
+      "name": "anglo-indian",
+      "cuisineID": "CUIC10061"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d14ee0bf79283ce09d8"
+      },
+      "name": "cornish",
+      "cuisineID": "CUIC10062"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d14ee0bf79283ce09d9"
+      },
+      "name": "anguillian",
+      "cuisineID": "CUIC10063"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d14ee0bf79283ce09da"
+      },
+      "name": "bermudian",
+      "cuisineID": "CUIC10064"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d14ee0bf79283ce09db"
+      },
+      "name": "virgin islander",
+      "cuisineID": "CUIC10065"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d14ee0bf79283ce09dc"
+      },
+      "name": "gibraltarian",
+      "cuisineID": "CUIC10066"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d14ee0bf79283ce09dd"
+      },
+      "name": "scottish",
+      "cuisineID": "CUIC10067"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d14ee0bf79283ce09de"
+      },
+      "name": "english",
+      "cuisineID": "CUIC10068"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d14ee0bf79283ce09df"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10069"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.372Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10017"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31222e"
+  },
+  "name": "bruneian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.373Z"
+  },
+  "cuisineID": "CUIP10018"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312232"
+  },
+  "name": "cambodian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.374Z"
+  },
+  "cuisineID": "CUIP10019"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312230"
+  },
+  "name": "bulgarian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.374Z"
+  },
+  "cuisineID": "CUIP10020"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312256"
+  },
+  "name": "central african republic",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.381Z"
+  },
+  "cuisineID": "CUIP10021"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312234"
+  },
+  "name": "canadian",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb1d6d7fc73d9378ed2f6d"
+      },
+      "name": "maritimes",
+      "cuisineID": "CUIC10092"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d6d7fc73d9378ed2f6e"
+      },
+      "name": "rocky mountain",
+      "cuisineID": "CUIC10093"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d6d7fc73d9378ed2f6f"
+      },
+      "name": "quebec",
+      "cuisineID": "CUIC10094"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d6d7fc73d9378ed2f70"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10095"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d6d7fc73d9378ed2f71"
+      },
+      "name": "pacific northwestern",
+      "cuisineID": "CUIC10015"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d6d7fc73d9378ed2f72"
+      },
+      "name": "newfoundland and labrador",
+      "cuisineID": "CUIC10097"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d6d7fc73d9378ed2f73"
+      },
+      "name": "manitoba",
+      "cuisineID": "CUIC10098"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d6d7fc73d9378ed2f74"
+      },
+      "name": "saskatchewan",
+      "cuisineID": "CUIC10099"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d6d7fc73d9378ed2f75"
+      },
+      "name": "ontario",
+      "cuisineID": "CUIC10100"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d6d7fc73d9378ed2f76"
+      },
+      "name": "prairie",
+      "cuisineID": "CUIC10101"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.375Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10023"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31223f"
+  },
+  "name": "caribbean",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb1d3f9893d092d810e332"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10070"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d3f9893d092d810e333"
+      },
+      "name": "anguillian",
+      "cuisineID": "CUIC10063"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d3f9893d092d810e334"
+      },
+      "name": "antigua and barbuda",
+      "cuisineID": "CUIC10072"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d3f9893d092d810e335"
+      },
+      "name": "barbadian",
+      "cuisineID": "CUIC10073"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d3f9893d092d810e336"
+      },
+      "name": "bahamian",
+      "cuisineID": "CUIC10074"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d3f9893d092d810e337"
+      },
+      "name": "belizean",
+      "cuisineID": "CUIC10075"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d3f9893d092d810e338"
+      },
+      "name": "bermudian",
+      "cuisineID": "CUIC10064"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d3f9893d092d810e339"
+      },
+      "name": "cayman islands",
+      "cuisineID": "CUIC10077"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d3f9893d092d810e33a"
+      },
+      "name": "cuban",
+      "cuisineID": "CUIC10078"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d3f9893d092d810e33b"
+      },
+      "name": "curaçaoan",
+      "cuisineID": "CUIC10079"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d3f9893d092d810e33c"
+      },
+      "name": "dominica",
+      "cuisineID": "CUIC10080"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d3f9893d092d810e33d"
+      },
+      "name": "dominican republic",
+      "cuisineID": "CUIC10081"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d3f9893d092d810e33e"
+      },
+      "name": "floribbean",
+      "cuisineID": "CUIC10082"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d3f9893d092d810e33f"
+      },
+      "name": "grenadan",
+      "cuisineID": "CUIC10083"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d3f9893d092d810e340"
+      },
+      "name": "haitian",
+      "cuisineID": "CUIC10084"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d3f9893d092d810e341"
+      },
+      "name": "jamaican",
+      "cuisineID": "CUIC10085"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d3f9893d092d810e342"
+      },
+      "name": "martinique",
+      "cuisineID": "CUIC10086"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d3f9893d092d810e343"
+      },
+      "name": "puerto rican",
+      "cuisineID": "CUIC10087"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d3f9893d092d810e344"
+      },
+      "name": "saint kitts and nevis",
+      "cuisineID": "CUIC10088"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d3f9893d092d810e345"
+      },
+      "name": "saint lucian",
+      "cuisineID": "CUIC10089"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d3f9893d092d810e346"
+      },
+      "name": "trinidad and tobago",
+      "cuisineID": "CUIC10090"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1d3f9893d092d810e347"
+      },
+      "name": "virgin islander",
+      "cuisineID": "CUIC10065"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.380Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10022"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312258"
+  },
+  "name": "chadian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.381Z"
+  },
+  "cuisineID": "CUIP10024"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31225a"
+  },
+  "name": "chilean",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb1dafcf629a93c0f3bc9c"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10102"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1dafcf629a93c0f3bc9d"
+      },
+      "name": "northern chilean",
+      "cuisineID": "CUIC10103"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1dafcf629a93c0f3bc9e"
+      },
+      "name": "central chilean",
+      "cuisineID": "CUIC10104"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1dafcf629a93c0f3bc9f"
+      },
+      "name": "southern chilean",
+      "cuisineID": "CUIC10105"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1dafcf629a93c0f3bca0"
+      },
+      "name": "rapa nui",
+      "cuisineID": "CUIC10106"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.382Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10025"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312260"
+  },
+  "name": "chinese",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a79955"
+      },
+      "name": "jiangsu",
+      "cuisineID": "CUIC10107",
+      "image": {
+        "imageName": "CUIC10107.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10107.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a79956"
+      },
+      "name": "jiangxi",
+      "cuisineID": "CUIC10108"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a79957"
+      },
+      "name": "hmong",
+      "cuisineID": "CUIC10109",
+      "image": {
+        "imageName": "CUIC10109.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10109.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a79958"
+      },
+      "name": "huaiyang",
+      "cuisineID": "CUIC10110",
+      "image": {
+        "imageName": "CUIC10110.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10110.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a79959"
+      },
+      "name": "guizhou",
+      "cuisineID": "CUIC10111",
+      "image": {
+        "imageName": "CUIC10111.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10111.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a7995a"
+      },
+      "name": "liaoning",
+      "cuisineID": "CUIC10112",
+      "image": {
+        "imageName": "CUIC10112.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10112.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a7995b"
+      },
+      "name": "inner mongolian",
+      "cuisineID": "CUIC10113",
+      "image": {
+        "imageName": "CUIC10113.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10113.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a7995c"
+      },
+      "name": "tianjin",
+      "cuisineID": "CUIC10114",
+      "image": {
+        "imageName": "CUIC10114.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10114.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a7995d"
+      },
+      "name": "yunnan",
+      "cuisineID": "CUIC10115",
+      "image": {
+        "imageName": "CUIC10115.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10115.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a7995e"
+      },
+      "name": "shandong",
+      "cuisineID": "CUIC10116",
+      "image": {
+        "imageName": "CUIC10116.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10116.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a7995f"
+      },
+      "name": "henan",
+      "cuisineID": "CUIC10117"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a79960"
+      },
+      "name": "teochew",
+      "cuisineID": "CUIC10118",
+      "image": {
+        "imageName": "CUIC10118.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10118.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a79961"
+      },
+      "name": "sichuan",
+      "cuisineID": "CUIC10119",
+      "image": {
+        "imageName": "CUIC10119.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10119.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a79962"
+      },
+      "name": "hainanese",
+      "cuisineID": "CUIC10120",
+      "image": {
+        "imageName": "CUIC10120.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10120.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a79963"
+      },
+      "name": "beijing",
+      "cuisineID": "CUIC10121",
+      "image": {
+        "imageName": "CUIC10121.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10121.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a79964"
+      },
+      "name": "northeastern chinese",
+      "cuisineID": "CUIC10122",
+      "image": {
+        "imageName": "CUIC10122.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10122.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a79965"
+      },
+      "name": "anhui",
+      "cuisineID": "CUIC10123"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a79966"
+      },
+      "name": "hunan",
+      "cuisineID": "CUIC10124",
+      "image": {
+        "imageName": "CUIC10124.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10124.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a79967"
+      },
+      "name": "hokkien",
+      "cuisineID": "CUIC10125",
+      "image": {
+        "imageName": "CUIC10125.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10125.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a79968"
+      },
+      "name": "cantonese",
+      "cuisineID": "CUIC10126",
+      "image": {
+        "imageName": "CUIC10126.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10126.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a79969"
+      },
+      "name": "shanxi",
+      "cuisineID": "CUIC10127",
+      "image": {
+        "imageName": "CUIC10127.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10127.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a7996a"
+      },
+      "name": "hubei",
+      "cuisineID": "CUIC10128",
+      "image": {
+        "imageName": "CUIC10128.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10128.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a7996b"
+      },
+      "name": "shanghai",
+      "cuisineID": "CUIC10129",
+      "image": {
+        "imageName": "CUIC10129.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10129.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a7996c"
+      },
+      "name": "hakka",
+      "cuisineID": "CUIC10130",
+      "image": {
+        "imageName": "CUIC10130.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10130.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a7996d"
+      },
+      "name": "uyghur",
+      "cuisineID": "CUIC10131",
+      "image": {
+        "imageName": "CUIC10131.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10131.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a7996e"
+      },
+      "name": "tibetan",
+      "cuisineID": "CUIC10132",
+      "image": {
+        "imageName": "CUIC10132.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10132.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a7996f"
+      },
+      "name": "zhejiang",
+      "cuisineID": "CUIC10133",
+      "image": {
+        "imageName": "CUIC10133.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10133.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ddd6ebeb293f2a79970"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10134",
+      "image": {
+        "imageName": "CUIC10134.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10134.jpg"
+      }
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.386Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10026"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31227d"
+  },
+  "name": "colombian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.386Z"
+  },
+  "cuisineID": "CUIP10027"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31227f"
+  },
+  "name": "croatian",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb1e10d643f49459d1dbc8"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10135"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1e10d643f49459d1dbc9"
+      },
+      "name": "dalmatian",
+      "cuisineID": "CUIC10136"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1e10d643f49459d1dbca"
+      },
+      "name": "dubrovnik",
+      "cuisineID": "CUIC10137"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1e10d643f49459d1dbcb"
+      },
+      "name": "primorje-gorski kotar",
+      "cuisineID": "CUIC10138"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1e10d643f49459d1dbcc"
+      },
+      "name": "istrian",
+      "cuisineID": "CUIC10139"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1e10d643f49459d1dbcd"
+      },
+      "name": "lika",
+      "cuisineID": "CUIC10140"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1e10d643f49459d1dbce"
+      },
+      "name": "međimurje county",
+      "cuisineID": "CUIC10141"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1e10d643f49459d1dbcf"
+      },
+      "name": "virovitica-podravina",
+      "cuisineID": "CUIC10142"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1e10d643f49459d1dbd0"
+      },
+      "name": "slavonian",
+      "cuisineID": "CUIC10143"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1e10d643f49459d1dbd1"
+      },
+      "name": "hrvatsko zagorje",
+      "cuisineID": "CUIC10144"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1e10d643f49459d1dbd2"
+      },
+      "name": "northern croatian",
+      "cuisineID": "CUIC10145"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.387Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10028"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312291"
+  },
+  "name": "dutch",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb1e3bf4438394b5324fde"
+      },
+      "name": "western dutch",
+      "cuisineID": "CUIC10146"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1e3bf4438394b5324fdf"
+      },
+      "name": "northeastern dutch",
+      "cuisineID": "CUIC10147"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1e3bf4438394b5324fe0"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10148"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1e3bf4438394b5324fe1"
+      },
+      "name": "southern dutch",
+      "cuisineID": "CUIC10149"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.390Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10029"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31228b"
+  },
+  "name": "cypriot",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.387Z"
+  },
+  "cuisineID": "CUIP10030"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312296"
+  },
+  "name": "east african",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb1e95b3db55954b33951c"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10150"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1e95b3db55954b33951d"
+      },
+      "name": "burundian",
+      "cuisineID": "CUIC10151"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1e95b3db55954b33951e"
+      },
+      "name": "eritrean",
+      "cuisineID": "CUIC10152"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1e95b3db55954b33951f"
+      },
+      "name": "ethiopian",
+      "cuisineID": "CUIC10153"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1e95b3db55954b339520"
+      },
+      "name": "kenyan",
+      "cuisineID": "CUIC10154"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1e95b3db55954b339521"
+      },
+      "name": "somali",
+      "cuisineID": "CUIC10155"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1e95b3db55954b339522"
+      },
+      "name": "tanzanian",
+      "cuisineID": "CUIP10104"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1e95b3db55954b339523"
+      },
+      "name": "ugandan",
+      "cuisineID": "CUIC10157"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1e95b3db55954b339524"
+      },
+      "name": "maasai",
+      "cuisineID": "CUIC10158"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.391Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10031"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3122a0"
+  },
+  "name": "ecuadorian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.392Z"
+  },
+  "cuisineID": "CUIP10032"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3122a2"
+  },
+  "name": "emirati",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.392Z"
+  },
+  "cuisineID": "CUIP10033"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31228d"
+  },
+  "name": "czech",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb1ec09ed23c9584862a51"
+      },
+      "name": "moravian",
+      "cuisineID": "CUIC10159"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ec09ed23c9584862a52"
+      },
+      "name": "bohemian",
+      "cuisineID": "CUIC10160"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1ec09ed23c9584862a53"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10161"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.388Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10034"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3122a4"
+  },
+  "name": "estonian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.393Z"
+  },
+  "cuisineID": "CUIP10035"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3122a6"
+  },
+  "name": "egyptian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.393Z"
+  },
+  "cuisineID": "CUIP10036"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3122a8"
+  },
+  "name": "filipino",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb1f0aeb121895ef265a6e"
+      },
+      "name": "tagalog",
+      "cuisineID": "CUIC10162"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f0aeb121895ef265a6f"
+      },
+      "name": "kapampangan",
+      "cuisineID": "CUIC10163"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f0aeb121895ef265a70"
+      },
+      "name": "maranao",
+      "cuisineID": "CUIC10164"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f0aeb121895ef265a71"
+      },
+      "name": "ilocano",
+      "cuisineID": "CUIC10165"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f0aeb121895ef265a72"
+      },
+      "name": "chavacano",
+      "cuisineID": "CUIC10166"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f0aeb121895ef265a73"
+      },
+      "name": "bicolano",
+      "cuisineID": "CUIC10167"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f0aeb121895ef265a74"
+      },
+      "name": "pangasinan",
+      "cuisineID": "CUIC10168"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f0aeb121895ef265a75"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10169"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f0aeb121895ef265a76"
+      },
+      "name": "luzonese",
+      "cuisineID": "CUIC10170"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f0aeb121895ef265a77"
+      },
+      "name": "visayan",
+      "cuisineID": "CUIC10171"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f0aeb121895ef265a78"
+      },
+      "name": "mindanaoan",
+      "cuisineID": "CUIC10172"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f0aeb121895ef265a79"
+      },
+      "name": "filipino american",
+      "cuisineID": "CUIC10173"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.396Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10037"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3122b5"
+  },
+  "name": "french",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb1f57d5bd0a9651857bbe"
+      },
+      "name": "loire valley",
+      "cuisineID": "CUIC10174",
+      "image": {
+        "imageName": "CUIC10174.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10174.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f57d5bd0a9651857bbf"
+      },
+      "name": "burgundy",
+      "cuisineID": "CUIC10175",
+      "image": {
+        "imageName": "CUIC10175.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10175.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f57d5bd0a9651857bc0"
+      },
+      "name": "creole",
+      "cuisineID": "CUIC10176",
+      "image": {
+        "imageName": "CUIC10176.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10176.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f57d5bd0a9651857bc1"
+      },
+      "name": "breton",
+      "cuisineID": "CUIC10177",
+      "image": {
+        "imageName": "CUIC10177.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10177.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f57d5bd0a9651857bc2"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10178",
+      "image": {
+        "imageName": "CUIC10178.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10178.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f57d5bd0a9651857bc3"
+      },
+      "name": "lyonnaise",
+      "cuisineID": "CUIC10179",
+      "image": {
+        "imageName": "CUIC10179.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10179.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f57d5bd0a9651857bc4"
+      },
+      "name": "picardy",
+      "cuisineID": "CUIC10180",
+      "image": {
+        "imageName": "CUIC10180.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10180.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f57d5bd0a9651857bc5"
+      },
+      "name": "nord pas de calais",
+      "cuisineID": "CUIC10181",
+      "image": {
+        "imageName": "CUIC10181.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10181.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f57d5bd0a9651857bc6"
+      },
+      "name": "franche-comté",
+      "cuisineID": "CUIC10182"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f57d5bd0a9651857bc7"
+      },
+      "name": "nouvelle",
+      "cuisineID": "CUIC10183",
+      "image": {
+        "imageName": "CUIC10183.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10183.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f57d5bd0a9651857bc8"
+      },
+      "name": "périgord",
+      "cuisineID": "CUIC10184"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f57d5bd0a9651857bc9"
+      },
+      "name": "bordeaux",
+      "cuisineID": "CUIC10185",
+      "image": {
+        "imageName": "CUIC10185.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f57d5bd0a9651857bca"
+      },
+      "name": "champagne",
+      "cuisineID": "CUIC10186"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f57d5bd0a9651857bcb"
+      },
+      "name": "provencal",
+      "cuisineID": "CUIC10187",
+      "image": {
+        "imageName": "CUIC10187.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10187.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f57d5bd0a9651857bcc"
+      },
+      "name": "haute",
+      "cuisineID": "CUIC10188",
+      "image": {
+        "imageName": "CUIC10188.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10188.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f57d5bd0a9651857bcd"
+      },
+      "name": "normandy",
+      "cuisineID": "CUIC10189",
+      "image": {
+        "imageName": "CUIC10189.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10189.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f57d5bd0a9651857bce"
+      },
+      "name": "gascony",
+      "cuisineID": "CUIC10190",
+      "image": {
+        "imageName": "CUIC10190.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10190.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f57d5bd0a9651857bcf"
+      },
+      "name": "poitou-charentes",
+      "cuisineID": "CUIC10191",
+      "image": {
+        "imageName": "CUIC10191.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10191.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f57d5bd0a9651857bd0"
+      },
+      "name": "alsatian",
+      "cuisineID": "CUIC10192",
+      "image": {
+        "imageName": "CUIC10192.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10192.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f57d5bd0a9651857bd1"
+      },
+      "name": "alsace lorraine",
+      "cuisineID": "CUIC10193",
+      "image": {
+        "imageName": "CUIC10193.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10193.jpg"
+      }
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.398Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10038"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3122ec"
+  },
+  "name": "greek",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb1f9b26f84496c4bd1b1d"
+      },
+      "name": "epirotic",
+      "cuisineID": "CUIC10194",
+      "image": {
+        "imageName": "CUIC10194.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10194.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f9b26f84496c4bd1b1e"
+      },
+      "name": "cretan",
+      "cuisineID": "CUIC10195",
+      "image": {
+        "imageName": "CUIC10195.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10195.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f9b26f84496c4bd1b1f"
+      },
+      "name": "greek macedonian",
+      "cuisineID": "CUIC10196",
+      "image": {
+        "imageName": "CUIC10196.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10196.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f9b26f84496c4bd1b20"
+      },
+      "name": "ionian",
+      "cuisineID": "CUIC10197",
+      "image": {
+        "imageName": "CUIC10197.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10197.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f9b26f84496c4bd1b21"
+      },
+      "name": "peloponnesian",
+      "cuisineID": "CUIC10198",
+      "image": {
+        "imageName": "CUIC10198.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10198.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f9b26f84496c4bd1b22"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10199",
+      "image": {
+        "imageName": "CUIC10199.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10199.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f9b26f84496c4bd1b23"
+      },
+      "name": "balkan",
+      "cuisineID": "CUIC10200",
+      "image": {
+        "imageName": "CUIC10200.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10200.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f9b26f84496c4bd1b24"
+      },
+      "name": "aegean",
+      "cuisineID": "CUIC10201"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1f9b26f84496c4bd1b25"
+      },
+      "name": "pontian",
+      "cuisineID": "CUIC10202"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.402Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10039"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3122d8"
+  },
+  "name": "german",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb1fe1fa53fb971efd619a"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10203"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1fe1fa53fb971efd619b"
+      },
+      "name": "saxon",
+      "cuisineID": "CUIC10204"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1fe1fa53fb971efd619c"
+      },
+      "name": "mecklenburg-western pomeranian",
+      "cuisineID": "CUIC10205"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1fe1fa53fb971efd619d"
+      },
+      "name": "swabian",
+      "cuisineID": "CUIC10206"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1fe1fa53fb971efd619e"
+      },
+      "name": "bavarian",
+      "cuisineID": "CUIC10207"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1fe1fa53fb971efd619f"
+      },
+      "name": "pomeranian",
+      "cuisineID": "CUIC10208"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1fe1fa53fb971efd61a0"
+      },
+      "name": "thuringia",
+      "cuisineID": "CUIC10209"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1fe1fa53fb971efd61a1"
+      },
+      "name": "ore mountain",
+      "cuisineID": "CUIC10210"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1fe1fa53fb971efd61a2"
+      },
+      "name": "hessian",
+      "cuisineID": "CUIC10211"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1fe1fa53fb971efd61a3"
+      },
+      "name": "baden",
+      "cuisineID": "CUIC10212"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1fe1fa53fb971efd61a4"
+      },
+      "name": "schleswig-holstein",
+      "cuisineID": "CUIC10213"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1fe1fa53fb971efd61a5"
+      },
+      "name": "pfalz",
+      "cuisineID": "CUIC10214"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1fe1fa53fb971efd61a6"
+      },
+      "name": "german-jewish",
+      "cuisineID": "CUIC10215"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1fe1fa53fb971efd61a7"
+      },
+      "name": "lower saxon",
+      "cuisineID": "CUIC10216"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1fe1fa53fb971efd61a8"
+      },
+      "name": "franconian",
+      "cuisineID": "CUIC10217"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1fe1fa53fb971efd61a9"
+      },
+      "name": "hamburg",
+      "cuisineID": "CUIC10218"
+    },
+    {
+      "_id": {
+        "$oid": "60eb1fe1fa53fb971efd61aa"
+      },
+      "name": "brandenburg",
+      "cuisineID": "CUIC10219"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.401Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10040"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3122ea"
+  },
+  "name": "gibraltar",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.401Z"
+  },
+  "cuisineID": "CUIP10041"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3122ca"
+  },
+  "name": "georgian",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb2031329f55977a1a2849"
+      },
+      "name": "racha-lekhchumi",
+      "cuisineID": "CUIC10220"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2031329f55977a1a284a"
+      },
+      "name": "imereti",
+      "cuisineID": "CUIC10221"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2031329f55977a1a284b"
+      },
+      "name": "adjarian",
+      "cuisineID": "CUIC10222"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2031329f55977a1a284c"
+      },
+      "name": "guria",
+      "cuisineID": "CUIC10223"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2031329f55977a1a284d"
+      },
+      "name": "kartli",
+      "cuisineID": "CUIC10224"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2031329f55977a1a284e"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10225"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2031329f55977a1a284f"
+      },
+      "name": "mingrelia",
+      "cuisineID": "CUIC10226"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2031329f55977a1a2850"
+      },
+      "name": "abkhazian",
+      "cuisineID": "CUIC10227"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2031329f55977a1a2851"
+      },
+      "name": "svaneti",
+      "cuisineID": "CUIC10228"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2031329f55977a1a2852"
+      },
+      "name": "lazeti",
+      "cuisineID": "CUIC10229"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2031329f55977a1a2853"
+      },
+      "name": "mtskheta-mtianeti",
+      "cuisineID": "CUIC10230"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2031329f55977a1a2854"
+      },
+      "name": "samtskhe-javakheti",
+      "cuisineID": "CUIC10231"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2031329f55977a1a2855"
+      },
+      "name": "kakhetian",
+      "cuisineID": "CUIC10232"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.398Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10042"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3122f6"
+  },
+  "name": "guyanese",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.402Z"
+  },
+  "cuisineID": "CUIP10043"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3122f8"
+  },
+  "name": "hungarian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.402Z"
+  },
+  "cuisineID": "CUIP10044"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3122fa"
+  },
+  "name": "indian",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9833"
+      },
+      "name": "indo chinese",
+      "cuisineID": "CUIC10233",
+      "image": {
+        "imageName": "CUIC10233.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10233.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9834"
+      },
+      "name": "goan",
+      "cuisineID": "CUIC10234",
+      "image": {
+        "imageName": "CUIC10234.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10234.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9835"
+      },
+      "name": "bengali",
+      "cuisineID": "CUIC10235",
+      "image": {
+        "imageName": "CUIC10235.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10235.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9836"
+      },
+      "name": "malvani",
+      "cuisineID": "CUIC10236"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9837"
+      },
+      "name": "chettinad",
+      "cuisineID": "CUIC10237",
+      "image": {
+        "imageName": "CUIC10237.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10237.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9838"
+      },
+      "name": "uttarkhand",
+      "cuisineID": "CUIC10238"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9839"
+      },
+      "name": "punjabi",
+      "cuisineID": "CUIC10239",
+      "image": {
+        "imageName": "CUIC10239.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10239.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a983a"
+      },
+      "name": "rajasthani",
+      "cuisineID": "CUIC10240",
+      "image": {
+        "imageName": "CUIC10240.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10240.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a983b"
+      },
+      "name": "hyderabadi",
+      "cuisineID": "CUIC10241",
+      "image": {
+        "imageName": "CUIC10241.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10241.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a983c"
+      },
+      "name": "malabari",
+      "cuisineID": "CUIC10242",
+      "image": {
+        "imageName": "CUIC10242.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10242.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a983d"
+      },
+      "name": "udupi",
+      "cuisineID": "CUIC10243",
+      "image": {
+        "imageName": "CUIC10243.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10243.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a983e"
+      },
+      "name": "vidarbha",
+      "cuisineID": "CUIC10244",
+      "image": {
+        "imageName": "CUIC10244.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10244.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a983f"
+      },
+      "name": "marwari",
+      "cuisineID": "CUIC10245",
+      "image": {
+        "imageName": "CUIC10245.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10245.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9840"
+      },
+      "name": "gujarati",
+      "cuisineID": "CUIC10246",
+      "image": {
+        "imageName": "CUIC10246.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10246.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9841"
+      },
+      "name": "maharashtrian",
+      "cuisineID": "CUIC10247",
+      "image": {
+        "imageName": "CUIC10247.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10247.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9842"
+      },
+      "name": "kolhapuri",
+      "cuisineID": "CUIC10248",
+      "image": {
+        "imageName": "CUIC10248.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10248.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9843"
+      },
+      "name": "kashmiri",
+      "cuisineID": "CUIC10249"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9844"
+      },
+      "name": "andaman & nicobar islands",
+      "cuisineID": "CUIC10250"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9845"
+      },
+      "name": "arunachal pradesh",
+      "cuisineID": "CUIC10251"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9846"
+      },
+      "name": "assamese",
+      "cuisineID": "CUIC10252"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9847"
+      },
+      "name": "chhattisgarh",
+      "cuisineID": "CUIC10253"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9848"
+      },
+      "name": "daman & diu",
+      "cuisineID": "CUIC10254"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9849"
+      },
+      "name": "saraswat",
+      "cuisineID": "CUIC10255"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a984a"
+      },
+      "name": "haryanvi",
+      "cuisineID": "CUIC10256"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a984b"
+      },
+      "name": "jammu",
+      "cuisineID": "CUIC10257"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a984c"
+      },
+      "name": "jharkhand",
+      "cuisineID": "CUIC10258"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a984d"
+      },
+      "name": "dadra & nagar haveli",
+      "cuisineID": "CUIC10259"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a984e"
+      },
+      "name": "puducherry",
+      "cuisineID": "CUIC10260"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a984f"
+      },
+      "name": "sikkimese",
+      "cuisineID": "CUIC10261"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9850"
+      },
+      "name": "tripuri",
+      "cuisineID": "CUIC10262"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9851"
+      },
+      "name": "awadhi",
+      "cuisineID": "CUIC10263",
+      "image": {
+        "imageName": "CUIC10263.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10263.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9852"
+      },
+      "name": "uttar pradesh",
+      "cuisineID": "CUIC10264"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9853"
+      },
+      "name": "sindhi",
+      "cuisineID": "CUIC10409"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9854"
+      },
+      "name": "ladakhi",
+      "cuisineID": "CUIC10266"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9855"
+      },
+      "name": "lakshadweep",
+      "cuisineID": "CUIC10267"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9856"
+      },
+      "name": "madhya pradesh",
+      "cuisineID": "CUIC10268"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9857"
+      },
+      "name": "meghalayan",
+      "cuisineID": "CUIC10269"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9858"
+      },
+      "name": "mizo",
+      "cuisineID": "CUIC10270"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9859"
+      },
+      "name": "naga",
+      "cuisineID": "CUIC10271"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a985a"
+      },
+      "name": "odisha",
+      "cuisineID": "CUIC10272"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a985b"
+      },
+      "name": "manipuri",
+      "cuisineID": "CUIC10273"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a985c"
+      },
+      "name": "himachali",
+      "cuisineID": "CUIC10274",
+      "image": {
+        "imageName": "CUIC10274.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10274.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a985d"
+      },
+      "name": "puneri",
+      "cuisineID": "CUIC10275",
+      "image": {
+        "imageName": "CUIC10275.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10275.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a985e"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10276",
+      "image": {
+        "imageName": "CUIC10276.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10276.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9860"
+      },
+      "name": "bihari",
+      "cuisineID": "CUIC10278",
+      "image": {
+        "imageName": "CUIC10278.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10278.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9861"
+      },
+      "name": "pahari",
+      "cuisineID": "CUIC10279"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9862"
+      },
+      "name": "mughlai",
+      "cuisineID": "CUIC10280",
+      "image": {
+        "imageName": "CUIC10280.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10280.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9863"
+      },
+      "name": "north indian",
+      "cuisineID": "CUIC10281"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9864"
+      },
+      "name": "tamil",
+      "cuisineID": "CUIC10282",
+      "image": {
+        "imageName": "CUIC10282.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10282.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9865"
+      },
+      "name": "south indian",
+      "cuisineID": "CUIC10283",
+      "image": {
+        "imageName": "CUIC10283.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10283.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9866"
+      },
+      "name": "mangalorean",
+      "cuisineID": "CUIC10284",
+      "image": {
+        "imageName": "CUIC10284.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10284.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9867"
+      },
+      "name": "kerala",
+      "cuisineID": "CUIC10285",
+      "image": {
+        "imageName": "CUIC10285.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10285.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20959f6a4797b53a9868"
+      },
+      "name": "telugu",
+      "cuisineID": "CUIC10286"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.406Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10045"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312331"
+  },
+  "name": "indonesian",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb20d671a64a9853c0cdf9"
+      },
+      "name": "padang",
+      "cuisineID": "CUIC10287",
+      "image": {
+        "imageName": "CUIC10287.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10287.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20d671a64a9853c0cdfa"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10288",
+      "image": {
+        "imageName": "CUIC10288.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10288.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20d671a64a9853c0cdfb"
+      },
+      "name": "peranakan",
+      "cuisineID": "CUIC10289",
+      "image": {
+        "imageName": "CUIC10289.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10289.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20d671a64a9853c0cdfc"
+      },
+      "name": "madurese",
+      "cuisineID": "CUIC10290"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20d671a64a9853c0cdfd"
+      },
+      "name": "acehnese",
+      "cuisineID": "CUIC10291"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20d671a64a9853c0cdfe"
+      },
+      "name": "papua province",
+      "cuisineID": "CUIC10292"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20d671a64a9853c0cdff"
+      },
+      "name": "nusa tenggara",
+      "cuisineID": "CUIC10293"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20d671a64a9853c0ce00"
+      },
+      "name": "maluku",
+      "cuisineID": "CUIC10294"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20d671a64a9853c0ce01"
+      },
+      "name": "sundanese",
+      "cuisineID": "CUIC10295",
+      "image": {
+        "imageName": "CUIC10295.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10295.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20d671a64a9853c0ce02"
+      },
+      "name": "palembang",
+      "cuisineID": "CUIC10296",
+      "image": {
+        "imageName": "CUIC10296.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10296.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20d671a64a9853c0ce03"
+      },
+      "name": "makassar",
+      "cuisineID": "CUIC10297",
+      "image": {
+        "imageName": "CUIC10297.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10297.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20d671a64a9853c0ce04"
+      },
+      "name": "manadonese",
+      "cuisineID": "CUIC10298",
+      "image": {
+        "imageName": "CUIC10298.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10298.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20d671a64a9853c0ce05"
+      },
+      "name": "betawi",
+      "cuisineID": "CUIC10299",
+      "image": {
+        "imageName": "CUIC10299.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10299.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20d671a64a9853c0ce06"
+      },
+      "name": "balinese",
+      "cuisineID": "CUIC10300"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20d671a64a9853c0ce07"
+      },
+      "name": "malay",
+      "cuisineID": "CUIC10301",
+      "image": {
+        "imageName": "CUIC10301.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10301.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20d671a64a9853c0ce08"
+      },
+      "name": "minangkabau",
+      "cuisineID": "CUIC10302",
+      "image": {
+        "imageName": "CUIC10302.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10302.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20d671a64a9853c0ce09"
+      },
+      "name": "batak",
+      "cuisineID": "CUIC10303"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20d671a64a9853c0ce0a"
+      },
+      "name": "sumatran",
+      "cuisineID": "CUIC10304",
+      "image": {
+        "imageName": "CUIC10304.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10304.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb20d671a64a9853c0ce0b"
+      },
+      "name": "javanese",
+      "cuisineID": "CUIC10305",
+      "image": {
+        "imageName": "CUIC10305.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10305.jpg"
+      }
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.408Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10046"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312345"
+  },
+  "name": "iranian",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb20f5aa33a098db5e0273"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10306"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20f5aa33a098db5e0274"
+      },
+      "name": "azerbaijani",
+      "cuisineID": "CUIP10008"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20f5aa33a098db5e0275"
+      },
+      "name": "southern iranian",
+      "cuisineID": "CUIC10308"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20f5aa33a098db5e0276"
+      },
+      "name": "balochi",
+      "cuisineID": "CUIC10403"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20f5aa33a098db5e0277"
+      },
+      "name": "caspian",
+      "cuisineID": "CUIC10310"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20f5aa33a098db5e0278"
+      },
+      "name": "kurdish",
+      "cuisineID": "CUIP10055"
+    },
+    {
+      "_id": {
+        "$oid": "60eb20f5aa33a098db5e0279"
+      },
+      "name": "turkmen",
+      "cuisineID": "CUIC10312"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.410Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10047"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31234d"
+  },
+  "name": "iraqi",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.411Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10048"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312351"
+  },
+  "name": "irish",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb2131f3d1ff9940c31ffc"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10316"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2131f3d1ff9940c31ffd"
+      },
+      "name": "county cork",
+      "cuisineID": "CUIC10317"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2131f3d1ff9940c31ffe"
+      },
+      "name": "dublin",
+      "cuisineID": "CUIC10318"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2131f3d1ff9940c31fff"
+      },
+      "name": "wexford",
+      "cuisineID": "CUIC10319"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2131f3d1ff9940c32000"
+      },
+      "name": "galway",
+      "cuisineID": "CUIC10320"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.412Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10049"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312376"
+  },
+  "name": "japanese",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb21650ebfd0997a7b81cd"
+      },
+      "name": "okinawan",
+      "cuisineID": "CUIC10321",
+      "image": {
+        "imageName": "CUIC10321.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10321.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21650ebfd0997a7b81ce"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10322",
+      "image": {
+        "imageName": "CUIC10322.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10322.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21650ebfd0997a7b81cf"
+      },
+      "name": "tokyo",
+      "cuisineID": "CUIC10323",
+      "image": {
+        "imageName": "CUIC10323.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10323.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21650ebfd0997a7b81d0"
+      },
+      "name": "nagoya",
+      "cuisineID": "CUIC10324",
+      "image": {
+        "imageName": "CUIC10324.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10324.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21650ebfd0997a7b81d1"
+      },
+      "name": "tohoku",
+      "cuisineID": "CUIC10325",
+      "image": {
+        "imageName": "CUIC10325.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10325.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21650ebfd0997a7b81d2"
+      },
+      "name": "hokkaido",
+      "cuisineID": "CUIC10326",
+      "image": {
+        "imageName": "CUIC10326.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10326.jpg"
+      }
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.416Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10050"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312357"
+  },
+  "name": "israeli",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb2183a851fd99e3c2a2d2"
+      },
+      "name": "sephardic",
+      "cuisineID": "CUIC10327"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2183a851fd99e3c2a2d3"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10328"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2183a851fd99e3c2a2d4"
+      },
+      "name": "ashkenazi",
+      "cuisineID": "CUIC10329"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2183a851fd99e3c2a2d5"
+      },
+      "name": "mizrahi",
+      "cuisineID": "CUIC10330"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.412Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10051"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31235c"
+  },
+  "name": "italian",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb21b4b0c6899a402adf69"
+      },
+      "name": "roman",
+      "cuisineID": "CUIC10331",
+      "image": {
+        "imageName": "CUIC10331.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10331.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21b4b0c6899a402adf6a"
+      },
+      "name": "occitan",
+      "cuisineID": "CUIC10332"
+    },
+    {
+      "_id": {
+        "$oid": "60eb21b4b0c6899a402adf6b"
+      },
+      "name": "milanese",
+      "cuisineID": "CUIC10333"
+    },
+    {
+      "_id": {
+        "$oid": "60eb21b4b0c6899a402adf6c"
+      },
+      "name": "sardinian",
+      "cuisineID": "CUIC10334"
+    },
+    {
+      "_id": {
+        "$oid": "60eb21b4b0c6899a402adf6d"
+      },
+      "name": "emilia-romagna",
+      "cuisineID": "CUIC10335",
+      "image": {
+        "imageName": "CUIC10335.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10335.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21b4b0c6899a402adf6e"
+      },
+      "name": "arbëreshe",
+      "cuisineID": "CUIC10336"
+    },
+    {
+      "_id": {
+        "$oid": "60eb21b4b0c6899a402adf6f"
+      },
+      "name": "abruzzo",
+      "cuisineID": "CUIC10337",
+      "image": {
+        "imageName": "CUIC10337.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10337.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21b4b0c6899a402adf70"
+      },
+      "name": "tuscan",
+      "cuisineID": "CUIC10338",
+      "image": {
+        "imageName": "CUIC10338.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10338.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21b4b0c6899a402adf71"
+      },
+      "name": "ligurian",
+      "cuisineID": "CUIC10339",
+      "image": {
+        "imageName": "CUIC10339.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10339.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21b4b0c6899a402adf72"
+      },
+      "name": "calabrian",
+      "cuisineID": "CUIC10340",
+      "image": {
+        "imageName": "CUIC10340.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10340.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21b4b0c6899a402adf73"
+      },
+      "name": "marche",
+      "cuisineID": "CUIC10341",
+      "image": {
+        "imageName": "CUIC10341.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10341.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21b4b0c6899a402adf74"
+      },
+      "name": "friulivenezia giulia",
+      "cuisineID": "CUIC10342",
+      "image": {
+        "imageName": "CUIC10342.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10342.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21b4b0c6899a402adf75"
+      },
+      "name": "venetian",
+      "cuisineID": "CUIC10343",
+      "image": {
+        "imageName": "CUIC10343.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10343.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21b4b0c6899a402adf76"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10344",
+      "image": {
+        "imageName": "CUIC10344.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10344.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21b4b0c6899a402adf77"
+      },
+      "name": "lazio",
+      "cuisineID": "CUIC10345",
+      "image": {
+        "imageName": "CUIC10345.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10345.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21b4b0c6899a402adf78"
+      },
+      "name": "umbrian",
+      "cuisineID": "CUIC10346",
+      "image": {
+        "imageName": "CUIC10346.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10346.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21b4b0c6899a402adf79"
+      },
+      "name": "lombardy",
+      "cuisineID": "CUIC10347",
+      "image": {
+        "imageName": "CUIC10347.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10347.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21b4b0c6899a402adf7a"
+      },
+      "name": "basilicata",
+      "cuisineID": "CUIC10348",
+      "image": {
+        "imageName": "CUIC10348.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10348.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21b4b0c6899a402adf7b"
+      },
+      "name": "trentino-alto adige",
+      "cuisineID": "CUIC10349",
+      "image": {
+        "imageName": "CUIC10349.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10349.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21b4b0c6899a402adf7c"
+      },
+      "name": "puglian",
+      "cuisineID": "CUIC10350",
+      "image": {
+        "imageName": "CUIC10350.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10350.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21b4b0c6899a402adf7d"
+      },
+      "name": "parma",
+      "cuisineID": "CUIC10351",
+      "image": {
+        "imageName": "CUIC10351.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10351.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21b4b0c6899a402adf7e"
+      },
+      "name": "neapolitian",
+      "cuisineID": "CUIC10352",
+      "image": {
+        "imageName": "CUIC10352.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10352.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21b4b0c6899a402adf7f"
+      },
+      "name": "verona",
+      "cuisineID": "CUIC10353",
+      "image": {
+        "imageName": "CUIC10353.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10353.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21b4b0c6899a402adf80"
+      },
+      "name": "sicilian",
+      "cuisineID": "CUIC10354",
+      "image": {
+        "imageName": "CUIC10354.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10354.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21b4b0c6899a402adf81"
+      },
+      "name": "piedmontese",
+      "cuisineID": "CUIC10355",
+      "image": {
+        "imageName": "CUIC10355.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10355.jpg"
+      }
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.415Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10052"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31237d"
+  },
+  "name": "jordanian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.417Z"
+  },
+  "cuisineID": "CUIP10053"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31237f"
+  },
+  "name": "korean",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb21cc57cf019a73db1307"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10356",
+      "image": {
+        "imageName": "CUIC10356.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10356.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21cc57cf019a73db1308"
+      },
+      "name": "jeju island",
+      "cuisineID": "CUIC10357",
+      "image": {
+        "imageName": "CUIC10357.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10357.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21cc57cf019a73db1309"
+      },
+      "name": "seoul",
+      "cuisineID": "CUIC10358"
+    },
+    {
+      "_id": {
+        "$oid": "60eb21cc57cf019a73db130a"
+      },
+      "name": "pyongan",
+      "cuisineID": "CUIC10359"
+    },
+    {
+      "_id": {
+        "$oid": "60eb21cc57cf019a73db130c"
+      },
+      "name": "kaesong",
+      "cuisineID": "CUIC10361",
+      "image": {
+        "imageName": "CUIC10361.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10361.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21cc57cf019a73db130d"
+      },
+      "name": "jeolla",
+      "cuisineID": "CUIC10362",
+      "image": {
+        "imageName": "CUIC10362.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10362.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21cc57cf019a73db130e"
+      },
+      "name": "hwanghae",
+      "cuisineID": "CUIC10363",
+      "image": {
+        "imageName": "CUIC10363.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10363.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21cc57cf019a73db130f"
+      },
+      "name": "hamgyong",
+      "cuisineID": "CUIC10364",
+      "image": {
+        "imageName": "CUIC10364.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10364.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21cc57cf019a73db1310"
+      },
+      "name": "gyeongsang",
+      "cuisineID": "CUIC10365",
+      "image": {
+        "imageName": "CUIC10365.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10365.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21cc57cf019a73db1311"
+      },
+      "name": "gyeonggi",
+      "cuisineID": "CUIC10366",
+      "image": {
+        "imageName": "CUIC10366.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10366.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21cc57cf019a73db1312"
+      },
+      "name": "gangwon",
+      "cuisineID": "CUIC10367",
+      "image": {
+        "imageName": "CUIC10367.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10367.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb21cc57cf019a73db1313"
+      },
+      "name": "chungcheong",
+      "cuisineID": "CUIC10368",
+      "image": {
+        "imageName": "CUIC10368.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10368.jpg"
+      }
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.418Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10054"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31238d"
+  },
+  "name": "kurdish",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.418Z"
+  },
+  "cuisineID": "CUIP10055"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31238f"
+  },
+  "name": "kuwaiti",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.418Z"
+  },
+  "cuisineID": "CUIP10056"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312391"
+  },
+  "name": "laotian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.419Z"
+  },
+  "cuisineID": "CUIP10057"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312393"
+  },
+  "name": "latvian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.419Z"
+  },
+  "cuisineID": "CUIP10058"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312395"
+  },
+  "name": "lebanese",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.419Z"
+  },
+  "cuisineID": "CUIP10059"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312397"
+  },
+  "name": "libyan",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.419Z"
+  },
+  "cuisineID": "CUIP10060"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312399"
+  },
+  "name": "liechtenstein",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.421Z"
+  },
+  "cuisineID": "CUIP10061"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31239b"
+  },
+  "name": "lithuanian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.421Z"
+  },
+  "cuisineID": "CUIP10062"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3123a4"
+  },
+  "name": "macanese",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.422Z"
+  },
+  "cuisineID": "CUIP10063"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3123a6"
+  },
+  "name": "macedonian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.422Z"
+  },
+  "cuisineID": "CUIP10064"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3123a8"
+  },
+  "name": "malaysian",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb21f1c86e439ac51962ca"
+      },
+      "name": "sabahan",
+      "cuisineID": "CUIC10369"
+    },
+    {
+      "_id": {
+        "$oid": "60eb21f1c86e439ac51962cb"
+      },
+      "name": "sarawakian",
+      "cuisineID": "CUIC10370"
+    },
+    {
+      "_id": {
+        "$oid": "60eb21f1c86e439ac51962cc"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10371"
+    },
+    {
+      "_id": {
+        "$oid": "60eb21f1c86e439ac51962cd"
+      },
+      "name": "penang",
+      "cuisineID": "CUIC10372"
+    },
+    {
+      "_id": {
+        "$oid": "60eb21f1c86e439ac51962ce"
+      },
+      "name": "eurasian",
+      "cuisineID": "CUIC10373"
+    },
+    {
+      "_id": {
+        "$oid": "60eb21f1c86e439ac51962cf"
+      },
+      "name": "peranakan",
+      "cuisineID": "CUIC10289"
+    },
+    {
+      "_id": {
+        "$oid": "60eb21f1c86e439ac51962d1"
+      },
+      "name": "east malaysian",
+      "cuisineID": "CUIC10376"
+    },
+    {
+      "_id": {
+        "$oid": "60eb21f1c86e439ac51962d2"
+      },
+      "name": "malaysian indian",
+      "cuisineID": "CUIC10377"
+    },
+    {
+      "_id": {
+        "$oid": "60eb21f1c86e439ac51962d3"
+      },
+      "name": "malaysian chinese",
+      "cuisineID": "CUIC10378"
+    },
+    {
+      "_id": {
+        "$oid": "60eb21f1c86e439ac51962d4"
+      },
+      "name": "malay",
+      "cuisineID": "CUIC10301"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.423Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10065"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3123b4"
+  },
+  "name": "maldivian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.423Z"
+  },
+  "cuisineID": "CUIP10066"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3123b6"
+  },
+  "name": "marshallese",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.424Z"
+  },
+  "cuisineID": "CUIP10067"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3123e6"
+  },
+  "name": "moldovan",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.428Z"
+  },
+  "cuisineID": "CUIP10068"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3123c3"
+  },
+  "name": "mexican",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb222d1f6dee9b06e00af5"
+      },
+      "name": "yucatán",
+      "cuisineID": "CUIC10380",
+      "image": {
+        "imageName": "CUIC10380.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10380.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb222d1f6dee9b06e00af6"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10381",
+      "image": {
+        "imageName": "CUIC10381.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10381.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb222d1f6dee9b06e00af7"
+      },
+      "name": "veracruz",
+      "cuisineID": "CUIC10382",
+      "image": {
+        "imageName": "CUIC10382.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10382.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb222d1f6dee9b06e00af8"
+      },
+      "name": "chiapas",
+      "cuisineID": "CUIC10383",
+      "image": {
+        "imageName": "CUIC10383.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10383.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb222d1f6dee9b06e00af9"
+      },
+      "name": "mexico city",
+      "cuisineID": "CUIC10384"
+    },
+    {
+      "_id": {
+        "$oid": "60eb222d1f6dee9b06e00afa"
+      },
+      "name": "northern mexican",
+      "cuisineID": "CUIC10385"
+    },
+    {
+      "_id": {
+        "$oid": "60eb222d1f6dee9b06e00afb"
+      },
+      "name": "oaxacan",
+      "cuisineID": "CUIC10386",
+      "image": {
+        "imageName": "CUIC10386.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10386.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb222d1f6dee9b06e00afc"
+      },
+      "name": "western mexican",
+      "cuisineID": "CUIC10387"
+    },
+    {
+      "_id": {
+        "$oid": "60eb222d1f6dee9b06e00afd"
+      },
+      "name": "pueblan",
+      "cuisineID": "CUIC10388",
+      "image": {
+        "imageName": "CUIC10388.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10388.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb222d1f6dee9b06e00afe"
+      },
+      "name": "mayan",
+      "cuisineID": "CUIC10389",
+      "image": {
+        "imageName": "CUIC10389.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10389.jpg"
+      }
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.426Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10069"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3123e8"
+  },
+  "name": "monégasque",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.428Z"
+  },
+  "cuisineID": "CUIP10070"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3123ea"
+  },
+  "name": "mongolian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.429Z"
+  },
+  "cuisineID": "CUIP10071"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3123ec"
+  },
+  "name": "nepali",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb2249ec41889b6e6dae84"
+      },
+      "name": "himalayan",
+      "cuisineID": "CUIC10390"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2249ec41889b6e6dae85"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10391"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2249ec41889b6e6dae86"
+      },
+      "name": "lohorung",
+      "cuisineID": "CUIC10392"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2249ec41889b6e6dae87"
+      },
+      "name": "terai",
+      "cuisineID": "CUIC10393"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2249ec41889b6e6dae88"
+      },
+      "name": "newa",
+      "cuisineID": "CUIC10394"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2249ec41889b6e6dae89"
+      },
+      "name": "khas",
+      "cuisineID": "CUIC10395"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.430Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10072"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3123f3"
+  },
+  "name": "new zealand",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb22609e88ab9b955e9577"
+      },
+      "name": "british isles",
+      "cuisineID": "CUIC10396"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22609e88ab9b955e9578"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10397"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22609e88ab9b955e9579"
+      },
+      "name": "maori",
+      "cuisineID": "CUIC10398"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.430Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10073"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3123f8"
+  },
+  "name": "omani",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.431Z"
+  },
+  "cuisineID": "CUIP10074"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3123fa"
+  },
+  "name": "pakistani",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb227c979a879bc09c6f52"
+      },
+      "name": "pashtun",
+      "cuisineID": "CUIC10003"
+    },
+    {
+      "_id": {
+        "$oid": "60eb227c979a879bc09c6f53"
+      },
+      "name": "punjabi",
+      "cuisineID": "CUIC10401"
+    },
+    {
+      "_id": {
+        "$oid": "60eb227c979a879bc09c6f54"
+      },
+      "name": "kalash",
+      "cuisineID": "CUIC10402"
+    },
+    {
+      "_id": {
+        "$oid": "60eb227c979a879bc09c6f55"
+      },
+      "name": "balochi",
+      "cuisineID": "CUIC10403"
+    },
+    {
+      "_id": {
+        "$oid": "60eb227c979a879bc09c6f56"
+      },
+      "name": "baltistan",
+      "cuisineID": "CUIC10404"
+    },
+    {
+      "_id": {
+        "$oid": "60eb227c979a879bc09c6f57"
+      },
+      "name": "hunza",
+      "cuisineID": "CUIC10405"
+    },
+    {
+      "_id": {
+        "$oid": "60eb227c979a879bc09c6f58"
+      },
+      "name": "kashmiri",
+      "cuisineID": "CUIC10406"
+    },
+    {
+      "_id": {
+        "$oid": "60eb227c979a879bc09c6f59"
+      },
+      "name": "karachi",
+      "cuisineID": "CUIC10407"
+    },
+    {
+      "_id": {
+        "$oid": "60eb227c979a879bc09c6f5a"
+      },
+      "name": "saraiki",
+      "cuisineID": "CUIC10408"
+    },
+    {
+      "_id": {
+        "$oid": "60eb227c979a879bc09c6f5b"
+      },
+      "name": "sindhi",
+      "cuisineID": "CUIC10409"
+    },
+    {
+      "_id": {
+        "$oid": "60eb227c979a879bc09c6f5c"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10410"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.431Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10075"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31240f"
+  },
+  "name": "peruvian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.432Z"
+  },
+  "cuisineID": "CUIP10076"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31240b"
+  },
+  "name": "papua new guinean",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.432Z"
+  },
+  "cuisineID": "CUIP10077"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312406"
+  },
+  "name": "palestinian",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb2291aa87819beffb6a72"
+      },
+      "name": "gaza",
+      "cuisineID": "CUIC10411"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2291aa87819beffb6a73"
+      },
+      "name": "west bank",
+      "cuisineID": "CUIC10412"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2291aa87819beffb6a74"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10413"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2291aa87819beffb6a75"
+      },
+      "name": "northern galilee",
+      "cuisineID": "CUIC10414"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.432Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10078"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31240d"
+  },
+  "name": "paraguayan",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.432Z"
+  },
+  "cuisineID": "CUIP10079"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312411"
+  },
+  "name": "polish",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb22ab7083b39c35ed2d14"
+      },
+      "name": "silesian",
+      "cuisineID": "CUIC10415"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22ab7083b39c35ed2d15"
+      },
+      "name": "greater polish",
+      "cuisineID": "CUIC10416"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22ab7083b39c35ed2d16"
+      },
+      "name": "lesser polish",
+      "cuisineID": "CUIC10417"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22ab7083b39c35ed2d17"
+      },
+      "name": "tatra mountains",
+      "cuisineID": "CUIC10418"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22ab7083b39c35ed2d18"
+      },
+      "name": "opole",
+      "cuisineID": "CUIC10419"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22ab7083b39c35ed2d19"
+      },
+      "name": "swiętokrzyskie",
+      "cuisineID": "CUIC10420"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22ab7083b39c35ed2d1a"
+      },
+      "name": "podlaskie",
+      "cuisineID": "CUIC10421"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22ab7083b39c35ed2d1b"
+      },
+      "name": "pomeranian",
+      "cuisineID": "CUIC10208"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22ab7083b39c35ed2d1c"
+      },
+      "name": "lublin",
+      "cuisineID": "CUIC10423"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22ab7083b39c35ed2d1d"
+      },
+      "name": "masovia",
+      "cuisineID": "CUIC10424"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22ab7083b39c35ed2d1e"
+      },
+      "name": "masuria",
+      "cuisineID": "CUIC10425"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22ab7083b39c35ed2d1f"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10426"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.433Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10080"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31241e"
+  },
+  "name": "portuguese",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.433Z"
+  },
+  "cuisineID": "CUIP10081"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312420"
+  },
+  "name": "qatari",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.433Z"
+  },
+  "cuisineID": "CUIP10082"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312422"
+  },
+  "name": "romanian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.434Z"
+  },
+  "cuisineID": "CUIP10083"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312424"
+  },
+  "name": "russian",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb22c68c547f9c900b53d1"
+      },
+      "name": "tatar",
+      "cuisineID": "CUIC10427"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22c68c547f9c900b53d2"
+      },
+      "name": "sakha",
+      "cuisineID": "CUIC10428"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22c68c547f9c900b53d3"
+      },
+      "name": "siberian",
+      "cuisineID": "CUIC10429"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22c68c547f9c900b53d4"
+      },
+      "name": "mordovian",
+      "cuisineID": "CUIC10430"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22c68c547f9c900b53d5"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10431"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22c68c547f9c900b53d6"
+      },
+      "name": "komi",
+      "cuisineID": "CUIC10432"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22c68c547f9c900b53d7"
+      },
+      "name": "soviet",
+      "cuisineID": "CUIC10433"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22c68c547f9c900b53d8"
+      },
+      "name": "bashkir",
+      "cuisineID": "CUIC10434"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22c68c547f9c900b53d9"
+      },
+      "name": "yamal",
+      "cuisineID": "CUIC10435"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.434Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10084"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31242e"
+  },
+  "name": "sammarinese",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.434Z"
+  },
+  "cuisineID": "CUIP10085"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312436"
+  },
+  "name": "singaporean",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb22dbc989579cb92723bb"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10436"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22dbc989579cb92723bc"
+      },
+      "name": "singaporean malay",
+      "cuisineID": "CUIC10437"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22dbc989579cb92723bd"
+      },
+      "name": "singaporean chinese",
+      "cuisineID": "CUIC10438"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22dbc989579cb92723be"
+      },
+      "name": "singaporean indian",
+      "cuisineID": "CUIC10439"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.436Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10086"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312434"
+  },
+  "name": "serbian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.436Z"
+  },
+  "cuisineID": "CUIP10088"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312432"
+  },
+  "name": "saudi arabian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.436Z"
+  },
+  "cuisineID": "CUIP10087"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31243b"
+  },
+  "name": "slovak",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.436Z"
+  },
+  "cuisineID": "CUIP10089"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31243d"
+  },
+  "name": "slovenian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.437Z"
+  },
+  "cuisineID": "CUIP10090"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312430"
+  },
+  "name": "samoan",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.435Z"
+  },
+  "cuisineID": "CUIP10091"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31243f"
+  },
+  "name": "south african",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.437Z"
+  },
+  "cuisineID": "CUIP10092"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312441"
+  },
+  "name": "scandinavian",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb22f4df2b069cf92392fc"
+      },
+      "name": "danish",
+      "cuisineID": "CUIC10440"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22f4df2b069cf92392fd"
+      },
+      "name": "norwegian",
+      "cuisineID": "CUIC10441"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22f4df2b069cf92392fe"
+      },
+      "name": "swedish",
+      "cuisineID": "CUIC10442"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22f4df2b069cf92392ff"
+      },
+      "name": "nordic",
+      "cuisineID": "CUIC10443"
+    },
+    {
+      "_id": {
+        "$oid": "60eb22f4df2b069cf9239300"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10444"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.437Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10093"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312447"
+  },
+  "name": "finnish",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.438Z"
+  },
+  "cuisineID": "CUIP10094"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312449"
+  },
+  "name": "icelandic",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.438Z"
+  },
+  "cuisineID": "CUIP10095"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312463"
+  },
+  "name": "surinamese",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.440Z"
+  },
+  "cuisineID": "CUIP10096"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312461"
+  },
+  "name": "srilankan",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.439Z"
+  },
+  "cuisineID": "CUIP10098"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31244d"
+  },
+  "name": "spanish",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb2346cca61e9d7eeb35ae"
+      },
+      "name": "madrid",
+      "cuisineID": "CUIC10445",
+      "image": {
+        "imageName": "CUIC10445.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10445.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb2346cca61e9d7eeb35af"
+      },
+      "name": "manchego",
+      "cuisineID": "CUIC10446",
+      "image": {
+        "imageName": "CUIC10446.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10446.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb2346cca61e9d7eeb35b0"
+      },
+      "name": "basque",
+      "cuisineID": "CUIC10447",
+      "image": {
+        "imageName": "CUIC10447.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10447.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb2346cca61e9d7eeb35b1"
+      },
+      "name": "canarian",
+      "cuisineID": "CUIC10448",
+      "image": {
+        "imageName": "CUIC10448.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10448.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb2346cca61e9d7eeb35b2"
+      },
+      "name": "aragonese",
+      "cuisineID": "CUIC10449",
+      "image": {
+        "imageName": "CUIC10449.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10449.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb2346cca61e9d7eeb35b3"
+      },
+      "name": "balearic",
+      "cuisineID": "CUIC10450",
+      "image": {
+        "imageName": "CUIC10450.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10450.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb2346cca61e9d7eeb35b4"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10451",
+      "image": {
+        "imageName": "CUIC10451.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10451.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb2346cca61e9d7eeb35b5"
+      },
+      "name": "menorcan",
+      "cuisineID": "CUIC10452",
+      "image": {
+        "imageName": "CUIC10452.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10452.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb2346cca61e9d7eeb35b6"
+      },
+      "name": "andalusian",
+      "cuisineID": "CUIC10453",
+      "image": {
+        "imageName": "CUIC10453.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10453.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb2346cca61e9d7eeb35b7"
+      },
+      "name": "extremaduran",
+      "cuisineID": "CUIC10454"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2346cca61e9d7eeb35b8"
+      },
+      "name": "murcia",
+      "cuisineID": "CUIC10455"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2346cca61e9d7eeb35b9"
+      },
+      "name": "navarra",
+      "cuisineID": "CUIC10456"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2346cca61e9d7eeb35ba"
+      },
+      "name": "castilian-leonese",
+      "cuisineID": "CUIC10457"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2346cca61e9d7eeb35bb"
+      },
+      "name": "valencian",
+      "cuisineID": "CUIC10458",
+      "image": {
+        "imageName": "CUIC10458.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10458.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb2346cca61e9d7eeb35bc"
+      },
+      "name": "galician",
+      "cuisineID": "CUIC10459",
+      "image": {
+        "imageName": "CUIC10459.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10459.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb2346cca61e9d7eeb35bd"
+      },
+      "name": "asturian",
+      "cuisineID": "CUIC10460",
+      "image": {
+        "imageName": "CUIC10460.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10460.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb2346cca61e9d7eeb35be"
+      },
+      "name": "cantabrian",
+      "cuisineID": "CUIC10461",
+      "image": {
+        "imageName": "CUIC10461.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10461.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb2346cca61e9d7eeb35bf"
+      },
+      "name": "rioja",
+      "cuisineID": "CUIC10462",
+      "image": {
+        "imageName": "CUIC10462.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10462.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb2346cca61e9d7eeb35c0"
+      },
+      "name": "catalan",
+      "cuisineID": "CUIC10463",
+      "image": {
+        "imageName": "CUIC10463.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10463.jpg"
+      }
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.439Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10097"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312465"
+  },
+  "name": "swiss",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.440Z"
+  },
+  "cuisineID": "CUIP10099"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31244b"
+  },
+  "name": "sudanese",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.438Z"
+  },
+  "cuisineID": "CUIP10100"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312467"
+  },
+  "name": "syrian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.440Z"
+  },
+  "cuisineID": "CUIP10101"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312469"
+  },
+  "name": "french polynesian",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb235f2fac289daff72949"
+      },
+      "name": "bora bora",
+      "cuisineID": "CUIC10464"
+    },
+    {
+      "_id": {
+        "$oid": "60eb235f2fac289daff7294a"
+      },
+      "name": "tikehau",
+      "cuisineID": "CUIC10465"
+    },
+    {
+      "_id": {
+        "$oid": "60eb235f2fac289daff7294b"
+      },
+      "name": "nuku hiva",
+      "cuisineID": "CUIC10466"
+    },
+    {
+      "_id": {
+        "$oid": "60eb235f2fac289daff7294c"
+      },
+      "name": "tahiti",
+      "cuisineID": "CUIC10467"
+    },
+    {
+      "_id": {
+        "$oid": "60eb235f2fac289daff7294d"
+      },
+      "name": "huahine",
+      "cuisineID": "CUIC10468"
+    },
+    {
+      "_id": {
+        "$oid": "60eb235f2fac289daff7294e"
+      },
+      "name": "taha'a",
+      "cuisineID": "CUIC10469"
+    },
+    {
+      "_id": {
+        "$oid": "610e84123e8a56d793e85aea"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10096"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.441Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10102"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312470"
+  },
+  "name": "taiwanese",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.441Z"
+  },
+  "cuisineID": "CUIP10103"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312472"
+  },
+  "name": "tanzanian",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb237dab12579de4eaac8a"
+      },
+      "name": "swahili",
+      "cuisineID": "CUIC10470"
+    },
+    {
+      "_id": {
+        "$oid": "60eb237dab12579de4eaac8b"
+      },
+      "name": "zanzibari",
+      "cuisineID": "CUIC10471"
+    },
+    {
+      "_id": {
+        "$oid": "60eb237dab12579de4eaac8c"
+      },
+      "name": "coastal tanzanian",
+      "cuisineID": "CUIC10472"
+    },
+    {
+      "_id": {
+        "$oid": "60eb237dab12579de4eaac8d"
+      },
+      "name": "mainland tanzanian",
+      "cuisineID": "CUIC10473"
+    },
+    {
+      "_id": {
+        "$oid": "60eb237dab12579de4eaac8e"
+      },
+      "name": "maasai",
+      "cuisineID": "CUIC10158"
+    },
+    {
+      "_id": {
+        "$oid": "60eb237dab12579de4eaac8f"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10475"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.442Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10104"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312479"
+  },
+  "name": "thai",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb2395a1e1979e0e9a7c49"
+      },
+      "name": "southern thai",
+      "cuisineID": "CUIC10476",
+      "image": {
+        "imageName": "CUIC10476.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10476.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb2395a1e1979e0e9a7c4a"
+      },
+      "name": "northern thai",
+      "cuisineID": "CUIC10477"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2395a1e1979e0e9a7c4b"
+      },
+      "name": "isan",
+      "cuisineID": "CUIC10478",
+      "image": {
+        "imageName": "CUIC10478.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10478.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb2395a1e1979e0e9a7c4c"
+      },
+      "name": "central thai",
+      "cuisineID": "CUIC10479",
+      "image": {
+        "imageName": "CUIC10479.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10479.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb2395a1e1979e0e9a7c4d"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10480",
+      "image": {
+        "imageName": "CUIC10480.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10480.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb2395a1e1979e0e9a7c4e"
+      },
+      "name": "bangkok",
+      "cuisineID": "CUIC10481"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.443Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10105"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312482"
+  },
+  "name": "turkish",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb23b0c68df29e653aaa65"
+      },
+      "name": "i̇zmir",
+      "cuisineID": "CUIC10482"
+    },
+    {
+      "_id": {
+        "$oid": "60eb23b0c68df29e653aaa66"
+      },
+      "name": "ottoman",
+      "cuisineID": "CUIC10483"
+    },
+    {
+      "_id": {
+        "$oid": "60eb23b0c68df29e653aaa67"
+      },
+      "name": "i̇stanbul",
+      "cuisineID": "CUIC10484"
+    },
+    {
+      "_id": {
+        "$oid": "60eb23b0c68df29e653aaa68"
+      },
+      "name": "anatolia",
+      "cuisineID": "CUIC10485"
+    },
+    {
+      "_id": {
+        "$oid": "60eb23b0c68df29e653aaa69"
+      },
+      "name": "southeast turkish",
+      "cuisineID": "CUIC10486"
+    },
+    {
+      "_id": {
+        "$oid": "60eb23b0c68df29e653aaa6a"
+      },
+      "name": "black sea",
+      "cuisineID": "CUIC10487"
+    },
+    {
+      "_id": {
+        "$oid": "60eb23b0c68df29e653aaa6b"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10488"
+    },
+    {
+      "_id": {
+        "$oid": "60eb23b0c68df29e653aaa6c"
+      },
+      "name": "bursa",
+      "cuisineID": "CUIC10489"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.443Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10106"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312480"
+  },
+  "name": "tongan",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.443Z"
+  },
+  "cuisineID": "CUIP10107"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31248b"
+  },
+  "name": "ukrainian",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.444Z"
+  },
+  "cuisineID": "CUIP10108"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31248d"
+  },
+  "name": "uruguayan",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.444Z"
+  },
+  "cuisineID": "CUIP10109"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31248f"
+  },
+  "name": "uzbek",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.445Z"
+  },
+  "cuisineID": "CUIP10110"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312491"
+  },
+  "name": "venezuelan",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.445Z"
+  },
+  "cuisineID": "CUIP10111"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef312493"
+  },
+  "name": "vietnamese",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb241c3b64b39f0fb0b05e"
+      },
+      "name": "all",
+      "cuisineID": "CUIC10490",
+      "image": {
+        "imageName": "CUIC10490.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10490.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb241c3b64b39f0fb0b05f"
+      },
+      "name": "southern vietnamese",
+      "cuisineID": "CUIC10491",
+      "image": {
+        "imageName": "CUIC10491.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10491.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb241c3b64b39f0fb0b060"
+      },
+      "name": "northern vietnamese",
+      "cuisineID": "CUIC10492"
+    },
+    {
+      "_id": {
+        "$oid": "60eb241c3b64b39f0fb0b061"
+      },
+      "name": "central vietnamese",
+      "cuisineID": "CUIC10493",
+      "image": {
+        "imageName": "CUIC10493.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10493.jpg"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60eb241c3b64b39f0fb0b062"
+      },
+      "name": "mekong delta",
+      "cuisineID": "CUIC10494"
+    },
+    {
+      "_id": {
+        "$oid": "60eb241c3b64b39f0fb0b063"
+      },
+      "name": "hanoi",
+      "cuisineID": "CUIC10495",
+      "image": {
+        "imageName": "CUIC10495.jpg",
+        "imageUrl": "https://df9pza7vwlyb8.cloudfront.net/CUIC10495.jpg"
+      }
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.446Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10112"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3124ad"
+  },
+  "name": "multi cuisine",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.451Z"
+  },
+  "cuisineID": "CUIP10113"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef31249a"
+  },
+  "name": "west african",
+  "child": [
+    {
+      "_id": {
+        "$oid": "60eb2432f870b09f3e74ee3a"
+      },
+      "name": "benin",
+      "cuisineID": "CUIC10496"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2432f870b09f3e74ee3b"
+      },
+      "name": "burkinabe",
+      "cuisineID": "CUIC10497"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2432f870b09f3e74ee3c"
+      },
+      "name": "gambian",
+      "cuisineID": "CUIC10498"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2432f870b09f3e74ee3d"
+      },
+      "name": "ghanaian",
+      "cuisineID": "CUIC10499"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2432f870b09f3e74ee3e"
+      },
+      "name": "guinean",
+      "cuisineID": "CUIC10500"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2432f870b09f3e74ee3f"
+      },
+      "name": "guinea-bissauan",
+      "cuisineID": "CUIC10501"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2432f870b09f3e74ee40"
+      },
+      "name": "ivorian",
+      "cuisineID": "CUIC10502"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2432f870b09f3e74ee41"
+      },
+      "name": "liberian",
+      "cuisineID": "CUIC10503"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2432f870b09f3e74ee42"
+      },
+      "name": "malian",
+      "cuisineID": "CUIC10504"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2432f870b09f3e74ee43"
+      },
+      "name": "mauritanian",
+      "cuisineID": "CUIC10505"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2432f870b09f3e74ee44"
+      },
+      "name": "niger",
+      "cuisineID": "CUIC10506"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2432f870b09f3e74ee45"
+      },
+      "name": "nigerian",
+      "cuisineID": "CUIC10507"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2432f870b09f3e74ee46"
+      },
+      "name": "senegalese",
+      "cuisineID": "CUIC10508"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2432f870b09f3e74ee47"
+      },
+      "name": "sierra leonean",
+      "cuisineID": "CUIC10509"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2432f870b09f3e74ee48"
+      },
+      "name": "togolese",
+      "cuisineID": "CUIC10510"
+    },
+    {
+      "_id": {
+        "$oid": "60eb2432f870b09f3e74ee49"
+      },
+      "name": "cameroonian",
+      "cuisineID": "CUIC10511"
+    }
+  ],
+  "doc": {
+    "$date": "2021-07-11T13:39:22.448Z"
+  },
+  "__v": 0,
+  "cuisineID": "CUIP10114"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3124ab"
+  },
+  "name": "yemeni",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.451Z"
+  },
+  "cuisineID": "CUIP10115"
+},{
+  "_id": {
+    "$oid": "60eaf48a877a6a73ef3124af"
+  },
+  "name": "western",
+  "doc": {
+    "$date": "2021-07-11T13:39:22.452Z"
+  },
+  "cuisineID": "CUIP10116"
+}]
